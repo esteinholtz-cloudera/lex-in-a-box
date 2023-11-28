@@ -12,6 +12,7 @@ def download(_object):
 sandbox_session = boto3.session.Session(profile_name='sandbox')
 s3 = sandbox_session.client("s3")
 
+# doesnt work and allegedly using the resource interface should fix it
 my_bucket = s3.bucket('esteinholtz-audio')
 prefix='lex-transcripts'
 objects = list(my_bucket.objects.filter(Prefix=prefix))

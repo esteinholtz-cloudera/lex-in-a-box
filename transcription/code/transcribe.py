@@ -21,22 +21,18 @@ def amazon_transcribe(input_object, max_speakers = -1):
   except:
     print("Jobname did not exist: ", job_name)
     mediaformat=file_name.split('.')[1]
+    outputkey="lex-transcripts/" + file_name.split(".")[0] + ".json"
 
-    if max_speakers != -1:
-      transcribe.start_transcription_job(
+    transcribe.start_transcription_job(
+        OutputBucketName="esteinholtz-audio",
+        OutputKey=outputkey,
         TranscriptionJobName=job_name,
         Media={'MediaFileUri': job_uri},
         MediaFormat=mediaformat,
         LanguageCode='en-US',
         Settings = {'ShowSpeakerLabels': True,
-                  'MaxSpeakerLabels': max_speakers})
-    else:
-      transcribe.start_transcription_job(
-        TranscriptionJobName=job_name,
-        Media={'MediaFileUri': job_uri},
-        MediaFormat=mediaformat,
-        LanguageCode='en-US',
-        Settings = {'ShowSpeakerLabels': True})
+                    'MaxSpeakerLabels': max_speakers}
+                    )
     return 0
   else:
     print ("job name already taken")
@@ -47,7 +43,10 @@ sandbox_session = boto3.session.Session(profile_name='sandbox')
 s3_resource = sandbox_session.resource("s3")
 
 my_bucket = s3_resource.Bucket('esteinholtz-audio')
-objects = list(my_bucket.objects.filter(Prefix='lex-audio'))
+objects = list(my_bucket.objects.filter(Prefix='lex-audio/mit_ai_sam_a'))
+#objects2 = list(my_bucket.objects.filter(Prefix='lex-audio/mit_ai_ian'))
+#objects.append(objects2[0])
+
 
 print("ready to process....:")
 for file in objects:
