@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Python Debugger: Python File with arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
+        }
+    ]
+}
