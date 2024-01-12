@@ -1,0 +1,551 @@
+{
+  "Speaker": "Lex Fridman",
+  "Start": "0:0:0",
+  "End": "0:1:21",
+  "Text": "The following is a conversation with Vladimir Wapnick . He's the co inventor of the support vector machines , support vector clustering VC theory and many foundational ideas in statistical learning . , , , . . , . . , . . . . , , , . , , , , . ? ? , , ? ? ? . , . , . , , , . , , . . . , . , ? ? , , , , . , , . , , , , . , . ? , ? ? , . , . , . , . , , . . , . . , . . , . , , , . . . , , . , . . . . . , ? ? , , ? ? . , . , . . , , , ? , . . , , , , . . , . . ? ? , . , . . , , . . . , , , . . , . . . . . , , . , . , . . , , , . . . , . . , ? . , . . . . . . , , . ? , ? ? , . , , ? ? ? , , . , . , . . , , . . . , . , . , . . . ? . . . . . . ? , . . . . , . ? . , , , , , , . . , , , . , . ? , . , , , , . , , . , , , . , , . . , , . . ? , . , , . , ? . . , . . . . , , , . . . . , . . . , . . , . . ? , ? , ? , , ? . , , , . , . , . . , , , , . . . , , , . , ? , , . . , . . , , , . , . , . , , . , . . . . . , . , , , . , , . . , . . , . . , . . , , . , . . , , , . , . . , , , . . ? , , , , , ? . ? ? , , , , . . . . . , , , , . , . . , , , . . , . . , , . . . . , , . , . , , , . , , . . , , . , , , , . . ? . , ? . , . . , . . , , . , . , . , . . , , , , . , . . . , . , . , ? ? , . . . , . , . , . , , . , , . . , , . . , , , . . . ? . . , . . . , . , , , , , , , , , . . ? ? ? , , , . , , . . , . . . , . . , . , . , , , . , , , . , . , . ? , . , . . , , ? . , , , . ? , , . , . . . , , . . ? . . , , , , ? ? ? . . , . . . ? . , , . . , , , , , , , . , , , . . , , . , , , . . , , . , , , . , . . , , . , . , . , , . , . . . , . . , , . ? , . , . , , , , , . ? , . . . , . , , , , . , . , , . . , . . , , . . , , . , . , , ? , ? ? ? . . , . . , . , , , . . . , . , , , , . . . , , . , . , , , , . , , , . , . , . , , . , , . , , . , , ? , , , . , . , , . , , , , . , . . . , . , . . , . . . , , . . He was born in the Soviet Union and worked at the Institute of Control Sciences in Moscow then in the United States he worked at AT&T nec labs Facebook research and now is a professor at Columbia University His work has been cited over 100 70,000 times He has some very interesting ideas about artificial intelligence and the nature of learning especially on the limits of our current approaches and the open problems in the field This conversation is part of mit course on Artificial General Intelligence and Artificial Intelligence podcast If you enjoy it please subscribe on youtube or rate it on itunes or your podcast provider of choice or simply connect with me on Twitter or other social networks at Lex Friedman spelled Fr ID And now here's my conversation with Vladimir Vap NK Einstein famously said"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:1:21",
+  "End": "0:1:35",
+  "Text": "that God doesn't play dice You have studied the world through the eyes of statistics So let me ask you in terms of the nature reality Fundamental nature reality does God play dice"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:1:36",
+  "End": "0:2:8",
+  "Text": "you don't know some factors and because you don't know some factors which could be important it looks like good play dies But well you should describe in philosophy they distinguish between two positions positions of instrumental where you're creating theory for prediction in a position of realism Were you trying to understand what God did"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:2:9",
+  "End": "0:2:12",
+  "Text": "Can you describe instrumental and realism a little bit"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:2:13",
+  "End": "0:2:50",
+  "Text": "For example if you have some mechanical loss what is that Is it law which true always and everywhere or it is law which allow you to predict position of moving element The what what you believe You believe that it is God's law that God created the vault which added to this physical law or it is just law for predictions"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:2:51",
+  "End": "0:2:52",
+  "Text": "and which one is instrumental"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:2:53",
+  "End": "0:3:10",
+  "Text": "for predictions If you believe that this is law of God and it's always true everywhere that means that you're realist So you're trying to really understood understand that God thought"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:3:10",
+  "End": "0:3:13",
+  "Text": "So the way you see the world is as an instrumentalist"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:3:14",
+  "End": "0:4:23",
+  "Text": "you know I working for some models models of uh machine learning So in this model we can see uh second and they try to solve resolve the setting to solve the problem And you can do it in two different ways from the point of view of instrumentalist And that's what everybody does now because uh they say the goal of machine learning is to uh find the rule for classification that is true but it is instrument for prediction But I can say the God of uh machine learning is to to learn about conditional probability So how God played use and he is he play what is probability for one What is probability for another given situation But for prediction I don't need this I need the rule but for understanding I need conditional probability"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:4:23",
+  "End": "0:5:16",
+  "Text": "So let me just step back a little bit first to talk about you mentioned uh which I read last night the the parts of the 1960 paper by Eugene Wigner uh unreasonable effectiveness of mathematics and natural sciences Such a such a beautiful paper by the way it made me feel to be honest to confess my own work in the past few years on deep learning heavily applied made me feel that I was missing out on some of the beauty of nature in the way that math can uncover So let me just step away from the the poetry of that for a second How do you see the role of math in your life Is it is it a tool Is it poetry Where where does it sit and does math for you have limits of what you can describe"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:5:16",
+  "End": "0:5:26",
+  "Text": "Some people think that mass is language which use God so I speak to God"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:5:26",
+  "End": "0:5:27",
+  "Text": "or use God or"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:5:27",
+  "End": "0:6:22",
+  "Text": "God So I believe that this article about effectiveness unreasonable effectiveness of mass is that if you're looking at mathematical structures they know something about reality And the most scientists from natural science they are looking on the equation in trying to understand reality So the same in machine learning if you try and very carefully look on all equations which define conditional probability you can understand something about reality more than from your fantasy"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:6:23",
+  "End": "0:6:28",
+  "Text": "So math can reveal the simple underlying principles of reality Perhaps"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:6:28",
+  "End": "0:7:41",
+  "Text": "you know what means simple It is very hard to discover them But then when you discover them and look at them you see how beautiful they are And and it is surprising why people did not see that before you're looking on equation and derive it from equations For example I talked yesterday about le square and people had a lot of fantasy have to improve li square net But if you look going step by step by solving some equations you suddenly you get some term which after thinking you understands that it describes position of observation point in li we met we throw out a lot of information We don't look in composition of point of observations We looking only on residuals But when you understood that that's very simple idea but it's not too simple to understand And you can derive this just form a coherent so some"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:7:41",
+  "End": "0:7:47",
+  "Text": "simple algebra a few steps will take you to something surprising that when you think about"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:7:49",
+  "End": "0:8:3",
+  "Text": "and that is proof that human intuition not too rich and very primitive And it does not seem very simple situations"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:8:3",
+  "End": "0:8:31",
+  "Text": "So let me take a step back in general Yes Right Uh But what about human as opposed to intuition ingenuity Um moments of brilliance So are you so do you have to be so hard on human intuition Are there moments of brilliance in human intuition that can leap ahead of math and then the math will catch up"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:8:32",
+  "End": "0:8:44",
+  "Text": "I don't think so I think that the the best human intuition it is putting in axioms and then it is technical where where the axioms"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:8:44",
+  "End": "0:8:45",
+  "Text": "take you"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:8:46",
+  "End": "0:8:59",
+  "Text": "But if they correctly take axioms but it Axion polished during generations of scientists and this is integral wisdom"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:9:0",
+  "End": "0:9:24",
+  "Text": "So that's beautifully put But if you maybe look at when you when you think of Einstein and uh Special relativity yeah what is the role of imagination coming first there in the moment of discovery of an idea So there's obviously a mix of meth and out of the box imagination there"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:9:25",
+  "End": "0:10:13",
+  "Text": "that I don't know whatever I did I exclude any imagination because whatever I saw in machine learning that come from imagination like features like deep learning They are not really the problem When you're looking very carefully from mathematical equations you're deriving very simple theory which goes far beyond theoretical than whatever people can imagine because it is not good fantasy it is just interpretation it is just fantasy but it is not what you need You don't need any imagination to derive uh say main principle of machine learning"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:10:14",
+  "End": "0:10:36",
+  "Text": "When you think about learning and intelligence maybe thinking about the human brain and trying to describe mathematically the process of learning Uh that is something like what happens in the human brain Do you think we have the tools currently Do you think we will ever have the tools to try to describe that process of learning"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:10:36",
+  "End": "0:12:26",
+  "Text": "You it is not descriptions of what's going on It is interpretation it is your interpretation Your vision can be wrong You know one guy invent microscope le go for the first time only he got this instrument and nobody he kept secret about microscope But he wrote reports in London Academy of Science In his report When he looked into the blood he looked everywhere on the water on the blood on the spoon But he described blood like fight between green and king So he saw blood cells red cells and he imagined that it is the army fighting each other And it was his interpretation of situation And he sent this report in academia science They very carefully look because they believe that he's he's right He saw something but he gave wrong interpretation and they believe the same can happen to his brain The most important part you know I believe in human language in some product is so much digital For example people say that it is better than 1000 days of diligent studies one day this great teacher But if you I will ask you what teacher does Nobody knows And that is intelligence and but we know from history and uh now from from mass and machine learning that teacher can do a"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:12:26",
+  "End": "0:12:31",
+  "Text": "lot So what from a mathematical point of view is a great teacher I"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:12:31",
+  "End": "0:13:3",
+  "Text": "don't know That's no no But we can uh say what teachers can do You can introduce some uh invariants and predicate for creating invariants how you doing it I don't know because teacher knows reality and can describe from this reality predicate invariance But he knows that when you are using in variant you can decrease the number of observations 100 times That's"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:13:4",
+  "End": "0:13:37",
+  "Text": "so But uh maybe try to pull that apart a little bit I think you mentioned like a piano teacher saying to the student play like a butterfly I played piano I played guitar for a long time And yeah that's there's um maybe it's romantic poetic but it feels like there's a lot of truth in that statement like there is a lot of instruction in that statement And so can you pull that apart What what is that The language itself may not contain this information"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:13:39",
+  "End": "0:13:42",
+  "Text": "because it's what"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:13:44",
+  "End": "0:13:56",
+  "Text": "Yes it does But it's not the lang it's it feels like um what is the information being exchanged there What is the nature of information What is the representation of that"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:13:56",
+  "End": "0:15:10",
+  "Text": "information I believe that it is sort of predicate but I don't know that is exactly what what intelligence in machine learning should be because the rest is just mathematical technique I think that uh what was discovered recently is that there is two t two mechanism of learning uh one called strong convergence mechanism and the convergence mechanism Before people use only one convergence in the convergence mechanism you can use predicate that's what play like butterfly and it will immediately affect your plan You know there is English pro great If it looks like a duck swims like a duck and like a duck then it is probably duck But this is exact about predicates looks like a duck what it means So you so many ducks that your training data So you you have description of how how looks integral looks dogs"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:15:11",
+  "End": "0:15:13",
+  "Text": "the visual characteristics of"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:15:13",
+  "End": "0:16:13",
+  "Text": "a duck Yeah but you want and you have model for recognition dogs So you would like the theoretical description from model coincide this empirical description which you saw there So about looks like the dog It is general But what about seems like a dog You should know the dog sleeps You can say it play chess like a duck OK D does not play chess and it is completely legal predicate but it is useless So half teachers can recognize not useless brain So up to now we don't use this predicate in existing machine learning So why we need zillions of data But in this English program they use only three predicate looks like a duck Swims like a duck and quacks like a duck"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:16:14",
+  "End": "0:16:23",
+  "Text": "So you can't deny the fact that swims like a duck and quacks like a duck has humor in it has ambiguity"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:16:23",
+  "End": "0:16:33",
+  "Text": "Let's talk about swim like a duck It does not say jump jump like a duck Why Because it's not"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:16:33",
+  "End": "0:16:35",
+  "Text": "relevant Uh"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:16:35",
+  "End": "0:16:46",
+  "Text": "But that means that you know dogs you know different birds you know animals and you derive from this that it is relevant to say seem like it"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:16:46",
+  "End": "0:17:16",
+  "Text": "Yeah So but underneath in order for us to understand swims like a duck it feels like we need to know millions of other little pieces of information we pick up along the way you don't think So there doesn't need to be this knowledge base in in those statements carries some rich information that helps us understand the essence of duck How far are we from integrating uh predicates"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:17:16",
+  "End": "0:18:16",
+  "Text": "You know that when when you consider complete So machine learning so what it does you have a lot of functions and then you you're you're talking it looks like the duck You see your training data from training data you recognize it like uh expect it d should look then you remove all functions which does not look like you think it should look from time and date So you decrease the amount of function from DP you pick up one then you give a second predicate and again dec decrease the set of function And after that you you pick up the best function you can find it is standard machine learning So why you need not too many examples"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:18:18",
+  "End": "0:18:21",
+  "Text": "because your predicates aren't very good You're"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:18:21",
+  "End": "0:18:30",
+  "Text": "not such music a predicate very good because every predicate is invented to decrease ALEAS set of function"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:18:32",
+  "End": "0:18:38",
+  "Text": "So you talk about admissible set of functions and you talk about good functions So what makes a good"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:18:38",
+  "End": "0:18:51",
+  "Text": "function So admissible set of function is sort of function which is small capacity or small diversity small VC dimension which contain good function"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:18:51",
+  "End": "0:19:6",
+  "Text": "So by the way for people who don't know VC um you're the V in the VC Uh uh So uh how would you describe to a layperson what GC theory is uh how would you describe these"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:19:7",
+  "End": "0:20:15",
+  "Text": "mushroom so machine capable to pick up one function from the admissible set of function But a set of admissible function can be big They contain all continuous functions and uses You don't have so many examples to pick up function but it can be small small Uh we call it capacity but maybe better called diversity So not very different function in the set is infinite set of function but not very diverse So it is small VC dimension When DC dimension is small you need not you you need a small amount of training data So the goal is to create admissible set of functions which is have small VC dimension and contain good function Then you should then you will be able to pick up the function uh using a small amount of observations"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:20:16",
+  "End": "0:20:31",
+  "Text": "So that is the task of learning is creating a set of admissible functions that has a small VC dimension And then you figure out a clever way of picking up"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:20:32",
+  "End": "0:21:20",
+  "Text": "no that that is goal of learning which I formulated yesterday Statistical learning theory does not involve in creating admissible set of function in classical learning theory everywhere 100% In textbook the set of function admissible set of function is given But this is science about nothing because the most difficult problem to create admissible set of functions given say a lot of functions continuum set of function create admissible set of functions That means that it kills finite VC dimension small VC dimension and contain good function So this was out of consideration"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:21:20",
+  "End": "0:21:31",
+  "Text": "So what's the process of doing that I mean it's fascinating what is the process of creating this um admissible set of functions That's the various can you describe the"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:21:31",
+  "End": "0:23:10",
+  "Text": "various of pro of training data And uh proper just means that you uh have some function and you you you just count what is value average value function and training data you have model and what is the expectation of this function on the model And they should coincide So the the problem with both have to pick up functions it can be any function it uh in in in fact it it it is true for all functions But because when you're talking said say duck does not jumping So you don't ask questions jump like a duck because it is trivial It does not jumping and doesn't help you to recognize you But you know something each question to ask if you're asking it seems like a like a duck but looks like a duck at his general situation looks like say guy who have this illness in this disease it is legal So there is a general type of predicate looks like and spec special type of predicate which related to this specific problem And that is intelligence part of all this business and that were teachers"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:23:11",
+  "End": "0:23:34",
+  "Text": "incorporating the specialized predicates Uh OK what do you think about deep learning as as um the neural networks these arbitrary architectures as helping accomplish some of the tasks you're thinking about their effectiveness or lack thereof What are what are the weaknesses and what are the possible strengths"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:23:35",
+  "End": "0:26:36",
+  "Text": "You know I think that this is fantasy everything which like deep learning like features Let me give you this example Uh One of the greatest book this Churchill book about The History of the Second World War And he's starting this book describing that in all time when war is over So the great kings they gathered together and all of them were relatives and they discussed what should be done how to create peace and they came to agreement and what what happened First world war the general public came in power and they were so greedy that Rob Germany And it was clear for everybody that it is not peace that peace will last only 20 years because they was not professionals And the same I see in machine learning there are mathematicians were looking for the problem from a very deep point of view mathematical point And there are uh computer scientists this mostly does not know mathematics They just have interpretation of that And they invented a lot of blah blah blah interpretations like deep learning Why you did deep learning mathematics does not know deep learning mathematics does not know uh neurons It is just function If you like to say piecewise linear function say that and do it in class of piece wise linear function But they invent something and then they try to to to to prove advantage of that through interpretations which mostly wrong And when it not enough they they appeal to brain which they know nothing about that Nobody knows what's going on in the brain So I think the more reliable look on mass this is mathematical problem Do your best to solve this problem Try to understand that there is not only one way of convergence which is strong way of convergence There is a weak way of convergence which requires predicate And if you will go through all this stuff you will see that you don't need deployment even more I would say one of the theorem which called to represent that theory It says that optimal solution of mathematical problem which is which described learning his own shadow network not on deep loading and a"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:26:36",
+  "End": "0:27:20",
+  "Text": "shallow network Yeah the problem is there Absolutely So in the end what you're saying is exactly right the question is you have no value for throwing something on the table playing with it not math So like in your own network where you said throwing something in the bucket and or the biological example and looking at kings and queens with the cells with the microscope you don't see value in imagining the cells are kings and queens and using that as inspiration and imagination for where the math will eventually lead you You think that interpretation basically deceives you in a way that's not productive"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:27:21",
+  "End": "0:27:40",
+  "Text": "I think that if you're trying to analyze this nation of learning uh and and especially discussion about deep learning it is discussion about interpretation not about things about what you can say about"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:27:40",
+  "End": "0:28:26",
+  "Text": "things That's right But aren't you surprised by the beauty of it So the the uh not mathematical beauty but the fact that it works at all or are you criticizing that very beauty are human desire to to interpret to to find our silly silly interpretations in these constructs Like let me ask you this Are you surprised And does it inspire you How do you feel about the success of a system like alpha go at beating the game of go using neural networks to estimate the the quality of a of a board and and and the quality"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:28:26",
+  "End": "0:28:28",
+  "Text": "of the interpretation of the board"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:28:29",
+  "End": "0:28:46",
+  "Text": "Yeah Yes But so it's not our interpretation The fact is a neural network system doesn't matter A learning system that we don't I think mathematically understand that well beats the best human player does something that was thought"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:28:46",
+  "End": "0:28:49",
+  "Text": "impossible which means that it's not a very difficult problem that"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:28:49",
+  "End": "0:29:4",
+  "Text": "that's so you empiric we empirically have discovered that this is not a very difficult problem Yeah it's true Uh So maybe can't argue Uh So"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:29:4",
+  "End": "0:30:50",
+  "Text": "even more I would say that if they use the planning it is not the most effective way of learning the and usually when people use deep learning they're using zillions of training data OK Yeah but you don't need this So I describe challenge Can we do some problems which do well deep learning method this deep net are using 100 times less training data even more Some problems deep learning cannot solve because it's not necessary they create admissible set of function When they to create deep architecture means to create admissible set of functions You cannot say that you are creating good admissible set of functions You just it's your fantasy it does not come from mass but it is possible to create admissible set of functions because you have your training data that actually for mathematicians Uh When you considering variant you need to use law of large numbers When you're making training in existing algorithm you need uniform law of large numbers which is much more difficult you see dimension and all this stuff But nevertheless if you use balls big stroke way of convergence you can decrease a lot of training data You"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:30:50",
+  "End": "0:31:44",
+  "Text": "could do the three that swims like a duck and quacks like a duck But our so let let's step back and um think about intel human intelligence in general and clearly that has evolved in a non mathematical way It wa it wasn't uh as far as we know God uh or or or whoever didn't come up with a model um and place in our brain of admissible functions that kind of evolved I don't know maybe you have a view on this But so Alan touring in the fifties in his paper asked and rejected the question Can machines think is not a very useful question But can you briefly entertain this useful useless question Can machines think so talk about intelligence and your view of it I don't"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:31:45",
+  "End": "0:33:22",
+  "Text": "know that I know the imitation If computer can imitate human being let's call it intelligent And he understands that it is not thinking computer He he completely understand what he done but he set up problem of imitation So now we understand that the problem not in imitation I am not sure that intelligence just inside of us it might be also outside of us I have several observations So when they prove some sodium it's very difficult sodium Uh in a couple of years in several places people prove the same theory I'm saying So dilemma after us was done then other guys proved the same in the history of science It's happened all the time For example geometry it's happened simultaneously first did Levski and then Gaus and Boy and other guys and it approximately in 10 times period 10 years period of time And I saw a lot of examples like that and many mathematicians think that when they develop something they develop something in general which affect everybody So maybe our models of intelligence only inside of us is incorrect It's our"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:33:22",
+  "End": "0:33:24",
+  "Text": "interpretation It"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:33:24",
+  "End": "0:33:31",
+  "Text": "may be there exist some connection you're"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:33:31",
+  "End": "0:34:4",
+  "Text": "almost like plugging in into uh and contributing to this network into a big maybe in your network On the flip side of that maybe you can comment on a big old complexity and how you see classifying algorithms by worst case running time in relation to their input So that way of thinking about functions do you think P equals NP Do you think that's an interesting question"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:34:4",
+  "End": "0:35:45",
+  "Text": "Yeah it is an interesting question But let me talk about complexity in about worst case scenario There is a MA MA setting when they came to United States in 1990 So people did not know this is the they did not know statistical learning So in Russia it was published to monographs or monographs But in America they did not know then they learned and somebody told me that it is worst case theory and they will create a real case theory But till now it did not because it is much much too you can do only what you can do using the markets and which has a clear understanding and clear description And for this reason he introduced complexity and you need this because using actually it is divers like this one more this dimension you can prove some theorem But we also create the for case when you know probability measure and that is the best case it can happen in this entropy theory So from a medical point of view you know the best possible case the worst possible possible case you can derive different model in me medium But it's not so interesting"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:35:45",
+  "End": "0:35:48",
+  "Text": "You think the edge the edges are interesting"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:35:48",
+  "End": "0:36:9",
+  "Text": "the edges is interesting because it is not so easy to get good bond exact bolt It's not many cases where you have the bot is not exact but interesting principles You discover the mass"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:36:9",
+  "End": "0:36:39",
+  "Text": "Do you think it's interesting because it's challenging and reveals interesting principles that allow you to get those bounds Or do you think it's interesting because it's actually very useful for understanding the essence of a function of a of an algorithm Uh So it's like me judging your life As a human being by the worst thing you did and the best thing you did versus all the stuff in the middle it seems uh not productive"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:36:40",
+  "End": "0:37:7",
+  "Text": "I don't think so because you cannot describe situation in the middle or it will be not general So you can describe age cases and it is clear it has some model but you cannot describe model for every new case So you you'll be never accurate when you're using"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:37:8",
+  "End": "0:37:32",
+  "Text": "But from a statistical point of view the way you've studied uh functions and and the nature of learning and the world don't you think that the real world has a very long tail that the cases are very far away from the mean the the stuff in the middle or no"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:37:34",
+  "End": "0:38:10",
+  "Text": "I don't know that because I think that but from my point of view if you will use formal statistic uniform law of large numbers if you will use this in variance business you will need just law of large numbers you don't And there's a huge difference between uniform law of large numbers and large"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:38:10",
+  "End": "0:38:15",
+  "Text": "numbers Is it useful to describe that a little more Or should we just take it to"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:38:16",
+  "End": "0:39:53",
+  "Text": "No For example when when I talking about doc I give three predicates it was enough But if you will try to to do formal distinguish you will need a lot of observation Uh And so that means that information about looks like a duck contain a lot of bits of information form of bits of information So we don't know that how much bit of information contained things from artificial from intelligence And that is the subject of analysis till now Old business I I don't like how people consider artificial intelligence They consider us some codes which imitate activity of human being It is not science it is applications you would like to imitate Go ahead it is very useful and and and good problem But you need to to to to learn something more How people try to do how people came to develop say uh predicate swims like a duck or play like butterfly or something like that The not not the teacher tells you how it came in his mind how he choose this image So that process that this problem of"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:39:53",
+  "End": "0:40:0",
+  "Text": "intelligence that is the problem of intel and you see that connected to the problem of learning are they"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:40:1",
+  "End": "0:40:11",
+  "Text": "because you immediately give this predicate like uh specific predicate seems like a dog or like a dog it was chosen somehow"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:40:12",
+  "End": "0:40:27",
+  "Text": "So what is the line of work would you say if you were to formulate as a set of open problems that will take us there We to play like a butterfly we'll get a system to be able to let's"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:40:27",
+  "End": "0:40:58",
+  "Text": "separate two stories One much much story that if you have predicate you can do something and another story you have to get predicate It is intelligence problem and people even did not start to understand intelligence because to understand intelligence First of all try to understand what do teach us of teacher teach why one teacher better than another one"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:40:59",
+  "End": "0:41:5",
+  "Text": "Yeah So you you think we really even haven't started on the journey of generating the predal"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:41:5",
+  "End": "0:41:12",
+  "Text": "you don't understand you even don't understand that this problem exists Because did"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:41:12",
+  "End": "0:41:12",
+  "Text": "you hear"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:41:14",
+  "End": "0:41:38",
+  "Text": "No II I just know a name I I want to understand uh why one teacher better than another and have affect teacher student It was not because he repeated the problem which is in textbook He makes some remarks He makes some philosophy of what he you"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:41:38",
+  "End": "0:41:49",
+  "Text": "know that's a beautiful So it is a formulation of a question that is the open problem Why is one teacher better than another"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:41:50",
+  "End": "0:41:51",
+  "Text": "But he does better"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:41:52",
+  "End": "0:42:4",
+  "Text": "Yeah What what what why in at every level how do they get better What does it mean to be better Uh The whole"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:42:4",
+  "End": "0:42:22",
+  "Text": "Yeah Yeah From from whatever model I have one teacher can give a very good predicate One teacher can say uh swims like a dog and another can say jump like a dog and jump like a dog Car is zero information"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:42:24",
+  "End": "0:42:30",
+  "Text": "So what is the most exciting problem in statistical learning you've ever worked on or are working on now"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:42:31",
+  "End": "0:43:13",
+  "Text": "Um I just finished this in variants story and I am happy that I believe that it is ultimate learning story At least they can show that there are no and as a mechanism only two mechanisms but they separate statistical part from intelligent part And I know nothing about the intelligent part And if we will know this intelligent part so it will help us a lot in teaching in in in in learning"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:43:14",
+  "End": "0:43:17",
+  "Text": "in learning you know we'll know it when we see it"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:43:17",
+  "End": "0:44:1",
+  "Text": "So for example in in my talk the last slide was a challenge So you have the least digital recognition problem And deep learning claims that they did it very well say 99.5% of correct answers but they use 60,000 observations Can you do the same using call tense less but incorporating the variants what it means you know digit want to say just looking at that explain the vision warrant I should keep to use 100 examples or say 100 times less examples to do the same job"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:44:3",
+  "End": "0:44:16",
+  "Text": "Yeah that last slide in in uh unfortunately you're talking it quickly But that last slide was a powerful open challenge and a formulation of the"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:44:16",
+  "End": "0:46:30",
+  "Text": "essence this exact problem of dig because everybody when machine learning started it was developed by they immediately recognized that we use much more uh training data than human needed But now again we came to the same story have to decrease And that is the problem of learning It is not like in deep learning they they use zillions of training data because maybe zillion are not enough If you um have a good uh invariance maybe you will never collect some number of observations But now it is a question to to intelligence have to do that because statistical part is ready As soon as you supply us we predicate we can do a good job with a small amount of observations And the very first challenges will know digital recognition and you know digits And please tell me in variants I think it's about that I can say for digit three I would introduce concept of horizontal symmetry So the the digit three has horizontal symmetry say more than say digital or something like that But as soon as I get to the horizontal symmetry I can mathematical invent a lot of measure of horizontal symmetry on the vertical symmetry or the oral symmetry whatever if I have a idea of symmetry But what else looking on on on digit I see that it is me me predicates which is not shape It is something like symmetry like half dark is whole picture something like that which which can rise a predicate"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:46:31",
+  "End": "0:47:21",
+  "Text": "You think such a predicate could rise out of something that's um not general meaning it feels like for me to be able to understand the difference between a two and a three I would need to have had a a childhood of 10 to 15 years playing with kids going to school being yelled by parents all of that wa walking jumping looking at ducks and now then I would be able to generate the right predicate for telling the difference between two and a three Or do you think there's a more efficient way"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:47:22",
+  "End": "0:47:27",
+  "Text": "I know for sure that you you must know something more than digits"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:47:28",
+  "End": "0:47:29",
+  "Text": "that's a powerful"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:47:30",
+  "End": "0:49:0",
+  "Text": "but maybe there are several languages of description um this elements of digits So I talking about symmetry about some properties of geometry are talking about something abstract I don't know that but this is a problem of intelligence So in one of our article it is trivial to show that every example can carry not more than one bit of information in real Because uh when you show example uh and you say this is one you can remove say a function which does not tell you one say it's the best strategy If you can do it perfectly it's remove half of the one But when you use one predicate which looks like a duck you can remove much more function than half And that means that it contains a lot of information from a formal point of view But when you have a general picture of what you want to recognize a general picture of the world can you invent this predicate and that predicates Ky a lot of information"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:49:2",
+  "End": "0:49:36",
+  "Text": "Beautifully put maybe just me But in all the math you show in your work uh which is some of the most profound mathematical work in in in the field of learning A I and just math in general I hear a lot of poetry and philosophy You really kind of um talk about philosophy of science There's a there's a poetry and music to a lot of the work you're doing and the way you're thinking about it So do you where does that come from Do you do you escape to poetry Do you escape to music or not"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:49:36",
+  "End": "0:50:4",
+  "Text": "Does there exist ground truth Yeah And that can be seen everywhere The smart guy philosopher sometimes I surprise have the deep sea Sometimes I see that some of them are completely out of subject But the grand truth I see in music"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:50:5",
+  "End": "0:50:6",
+  "Text": "music is the ground"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:50:6",
+  "End": "0:50:15",
+  "Text": "truth And in poetry many poets they they believe that they take dictation"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:50:16",
+  "End": "0:50:28",
+  "Text": "So what uh what piece of music as a piece of empirical evidence gave you a sense that they are Um they're touching something in the ground truth"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:50:29",
+  "End": "0:50:30",
+  "Text": "It is structure"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:50:31",
+  "End": "0:50:32",
+  "Text": "the structure"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:50:33",
+  "End": "0:50:50",
+  "Text": "When you're listening to bach you see the structure very clear very classic very simple and the same in Mars when you have uh axioms in ge you have the same feeling and poetry Sometimes you see the same"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:50:51",
+  "End": "0:51:29",
+  "Text": "Yeah Um And if you look back at your childhood you grew up in Russia you maybe were born as a researcher in Russia You've developed as a researcher in Russia you've came to the United States and a few places If you look back what were what was some of your happiest moments as a researcher uh some of the most profound moments not in terms of their impact on society but in terms of their impact on how damn good you feel that day And you remember that moment"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:51:30",
+  "End": "0:52:7",
+  "Text": "you know every time when you found something it is great man One of a life every simple things But my general feeling that I most most of my time was wrong You should go again and again and again and try to be honest in front of yourself not to make interpretation but try to understand that it related to grand rules It is not my blah blah blah interpretation and something like that But"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:52:7",
+  "End": "0:52:15",
+  "Text": "you're allowed to get excited at the at the possibility of discovery you'll you have to double check it But uh"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:52:16",
+  "End": "0:52:54",
+  "Text": "no but how it related to the other ground rules is it just temporary or it is for forever You know you always have a feeling when you found something of because that so 20 years ago when we discovered statistical alone in Soviet nobody believed except for one guy Dublin from MIT Uh And then in 20 years it became fashion It's the same you support the acting machines the"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:52:55",
+  "End": "0:53:15",
+  "Text": "machines So with with supporting machines and learning theory when you were working on it uh you had a sense that you had a sense of the the the profundity of it How that this this seems to be right This seems to be powerful"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:53:16",
+  "End": "0:54:11",
+  "Text": "Absolutely Immediately I recognize that if you lost forever And now when I found this in war's story so my favorite feeling is that it is complete because I have proved that there are no different mechanisms You can have some uh say cosmetic improvement you can do But in terms of invariants we need both variants in statistical learning and they should work together But also I'm happy that uh we can formulate what is intelligence of that and to separate from technical part and Jack is completely different"
+}{
+  "Speaker": "Vladimir Vapnik",
+  "Start": "0:54:12",
+  "End": "0:54:16",
+  "Text": "Absolutely Well Vladimir thank you so much for talking today It's an honor"
+}

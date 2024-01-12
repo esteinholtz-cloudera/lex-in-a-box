@@ -1,0 +1,421 @@
+{
+  "Speaker": "Lex Fridman",
+  "Start": "0:0:0",
+  "End": "0:2:43",
+  "Text": "Welcome to the Artificial Intelligence podcast . My name is Lex Friedman . I'm a research scientist at MIT , . . , . . . , . . , , . . . , , , . . . . , . , , . . . . , , ? , . , . . . ? , , , . . . , , , , , , . . . , . . . , . . , , , . . . , . , , , . , . , , . . . . , , , , . , . , , . , , . , , , , . , , . . , , , , , . , , , , ? . , . , . . . ? , ? . . , . . , . , , . , , , , . , . ? , , , , . ? , , , , , , , , , . , , . , , , , . ? , ? , , , , , , , ? . , , , , , . ? ? . , ? . , , . , . , , . ? , . , . , . . , , , . , , , . . , , , . , , , . , , . , . , , , ? , , . , , , . , , , , , ? , . , , , , , , , , . . , , , , . . . , , , , , , . . , , . , , , . , , . , . , , , , . . . , , . , , , , , . . , . , , , , . . , ? , ? , , , , . . . . , ? , . , , , , , , , , , . . . . , . , , . , , , , . , , . , . , , , , , , , . , , , . . , , , . , , . . , ? ? ? , , . , ? , ? , ? , , . . ? ? ? ? , , , ? , , , . , , , . , , , , . . . . . . ? , . . , , ? . . . , , , , . . . , , , , , , , . , , . , , , , , , . . , . . , , , , , , , ? , ? , , . , , . ? . . . . , . . , , . , , . . , ? . , , . , , . , ? , , , , , , . , . , . , ? , ? . . , , , , . . , . , , , , ? ? , , . , , , . , , . . . . , . , ? ? ? , ? ? , , , ? , , , . , . , . . , , , . , , , . . , . , , , , , . . . , , , , , , . , ? , . . . . , , . . . . , , . , . , . , , , , , . . . . , , , . . . , ? , ? ? ? . . , ? , , , , . . . . , . . , , ? . . , , , , . . . , . . , , ? . , , . , , , . , , ? , , . . , , . ? . , , , ? . , , . , , . , , . . . . . . . , , ? , , , ? , , , , , , . , , . , , , . , , , . , , , , ? , , ? , , . . , , . , . , , . , . , . . , . , . , , . . . . . ? . . , , , . . , , . . , , . . , ? . , ? . . . , . , . , . , , , . . , . . . . ? , . , . . , . , , , , . , , , , , , ? , , . , , . . ? , , . ? ? , ? . , , , , . . , , . , . , , . . , , , ? ? ? ? , , , , , . , , . , , . , , , , ? , . . . , , , , ? . , , . , , . ? , ? , . , , , , . , , , , . . , , , , . , . , , . , , , , , . , , , . , , , . , ? , ? , , . , . , . , , , . . , . . , . . . , , , ? , , , . ? , , . , . ? , , , , , ? , , , . , , , , , , , , . . , , , . . , . . , . , , , . . , , . . , ? , , . , , . . , , , . , , , , , ? , , , . , ? , , , , . , , , , , , . , , , , . , . . , . , ? , . ? ? , , , . . . , . . , . , . , . ? , , , ? . , , , ? , . , , , , . , , . , . . , . , . , . , , , , ? ? ? ? . , , , , , . , , . , ? , . , . , , . , ? , , , , . , , , , . , . , . ? ? ? ? , ? , , . , , , , , , . , , , , , . , ? , . , ? , , , , . . , . , . , . ? , ? , , , . . , , . , , , , . . , , . , , . , , , . , . , . . , . , , . , , , . . , ? . , , , , . . , . , , . , , , . , , , , , , . , . . , ? ? ? ? ? , , , . , . . , , , . , , , , . , , , , , . , , , ? , , , . , . . , . , , . . , . . ? ? , , , , ? . , , . . , . . , , . , , , , , ? . . . , , , , , . , , . . . , . , , , , . , . . , , , , . , , , . , , , ? . , , . , , , . , , , . . , , , , . , , , . , ? , . . , . , , . . , , , . , , , , , , . . , . , . . . , , . , . , . , , , , . , , , , , , , , . . . , . . , ? , , , . , . , . , ? . . . . ? , , , , , , , , . . . , . . , , , ? . , , ? ? ? , , , ? ? ? ? ? , , . , . , , , , , , , , ? , , . . , , , , , , , , , . . , , , . , ? , ? , , . , , , , , . , , . , , . . , , , , , . , . . ? ? , ? , . . , . . , , , , , . . . . , . . , . . , , , . , , , ? , . . . , . , , , , , , . , . , . . , , . . . If you would like to skip ahead to the conversation with Christo Co I start introducing him at about the one minute and 32nd mark This podcast is an extension of the courses on deep learning autonomous vehicles and artificial general intelligence that have taught and organized It is not only about machine learning or robotics or neuroscience or philosophy or any one technical field it considers all these avenues of thought in a way that is hopefully accessible to everyone The aim here is to explore the nature of human and machine intelligence The big picture of understanding the human mind and creating echoes of it in the machine To me that is one of our civilization's most challenging and exciting scientific journeys into the unknown I will first repost parts of previous youtube conversations and lecture Q and A's that can be listened to without video If you want to see the video version please go to my youtube channel my user name there on Twitter and everywhere else is Lex Friedman spelled Fr ID without the E So reach out and connect If you find these conversations interesting In this episode I talk with Christof Koch who is one of the seminal figures in the fields of neurobiology neuroscience and generally in the study of consciousness He's the president and Chief Scientific Officer of the Allen Institute of Brain Science in Seattle from 1986 until 2013 He was a professor at Caltech His work has received over 100,000 citations He's the author of several books including Consciousness Confessions of a romantic reductionist His research his writing his ideas have had a big impact on the scientific community and the general public in the way we think about consciousness and in the way we think of ourselves as human beings I enjoyed and learned a lot from this conversation I hope you do as well Ok Before we delve into the beautiful mysteries of consciousness let's zoom out a little bit and let me ask do you think there's intelligent life out there in the universe Uh"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:2:43",
+  "End": "0:3:0",
+  "Text": "Yes I do believe so We have no evidence of it but I think the probabilities are overwhelming in favor of it Given the universe where we have 10 to the 11 Galaxies and each galaxy has between 10 to 1110 to the 12 stars And we know most stars have one or more planets"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:3:1",
+  "End": "0:3:2",
+  "Text": "So how does that make you feel"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:3:3",
+  "End": "0:3:24",
+  "Text": "It still makes me feel special because I have experiences I feel the world I experience the world and uh independent of whether there are other creatures out there I still feel the world and I have access to this world in this very strange compelling way And that's the core of human existence"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:3:25",
+  "End": "0:3:34",
+  "Text": "Now you said human do you think if those intelligent creatures are out there do you think they experience their world they"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:3:34",
+  "End": "0:4:37",
+  "Text": "are evolved if they are a product of natural evolution as they would have to be they will also experience their own world The consciousness isn't just a human You're right It's it's much wider It's probably it may be spread across all of biology We have the only thing that we have special is we can talk about it Of course not all people can talk about it Babies and little Children can talk about it Patients who have who have a stroke and let's see the left inferior frontal child can't talk about it but most normal adult people can talk about it And so we think that makes us special compared to little monkeys or dogs or cats or mice or all the other creatures that we share the planet with But all the evidence seems to suggest that they too experience the world And so it's overwhelmingly likely that other aliens that aliens would also experience their world Of course differently because they have a different sensorium they have different sensors they have a very different environment But the fact that I I would strongly suppose that they also have experiences they feel pain and pleasure and see in some sort of spectrum and hear and have all the other senses"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:4:37",
+  "End": "0:5:36",
+  "Text": "Of course their language if they have one would be different So we might not be able to understand their poetry about the experiences that they have That's correct Right So in a talk in a video I've I've heard you mention Saputo a Dax hound that you came up with that you grew up with it was part of your family when you were young Uh First of all you're technically a midwestern boy You just technically but uh after that you traveled around a bit Hence a little bit of the accent you talked about Saputo the DAO having these elements of humanness of consciousness that you discovered So I I just wanted to ask can you look back in your childhood and remember when was the first time you realized you yourself sort of from a third person perspective or are conscious being this idea of you know stepping outside yourself and seeing there's something special going on here in my brain"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:5:37",
+  "End": "0:6:34",
+  "Text": "I can't really actually it's a good question I'm not sure I recall a discrete moment I mean you take it for granted because that's the only world you know the only world I know you know is the world of seeing and hearing voices and touching and all the other things So it's only much later at early in my unguided days when I became um when I enrolled in physics and in philosophy that I really thought about it and thought well this is really fundamentally very very mysterious and there's nothing really in physics right now that explains this transition from the physics of the brain to feelings where do the feelings come in Right So you can look at the foundational equation of quantum mechanics general relativity you can look at the period table of the elements You can you can look at the endless A TG seat chat in our genes and nowhere is consciousness Yet I wake up every morning to a world where I have experiences And so that's the heart of the ancient mind body problem How do experiences get into the world"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:6:36",
+  "End": "0:6:38",
+  "Text": "So what is consciousness"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:6:38",
+  "End": "0:7:23",
+  "Text": "experience consciousness is any any con any experience Some people call it subjective feeling Some people call it phenomenon phenomenology Some people call it quality of the philosopher but they all denote the same thing It feels like something in the famous word of the philosopher Thomas Nagel It feels like something to be a bad or to be uh you know um um uh an American or to be angry or to be sad or to be in love or to have pain And that is what experience is any possible experience could be as mundane as just sitting in a chair could be as exalted as you know having a mystical moment Uh you know in in deep meditation those are just different forms of experiences"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:7:23",
+  "End": "0:7:47",
+  "Text": "experience So if you were to sit down with maybe the next skip a couple of generations of IBM Watson something that won jeopardy What is the gap I guess the question is between Watson uh that might be much smarter than you than us than all any human alive but may not have experience What is the gap"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:7:48",
+  "End": "0:15:0",
+  "Text": "Well so that's a big big question that's occupy people for the last um certainly the last 50 years since we you know since the advent the birth of um of computers that's a question Alan Turing tried to answer And of course he did it in this indirect way by proposing its test an operational test So but that's not really that's you know he tried to get it What does it mean for a person to think And then he had this test right You lock them away and then you have a communication with them and then you try to to guess after a while whether that is a person or whether it's a computer system there's no question that now or very soon you know Alexa or Siri or you know Google now will pass this test right And you can game it But you know ultimately certainly in your generation there will be machines that will speak with complete poise that will remember everything you ever said They'll remember every email you ever had like like Samantha Remember in the movie her There's no question is gonna happen But of course the key question is does it feel like anything to be Samantha in the movie her or does it feel like anything to be Watson And there one has to very um very strongly think there are two different concepts here that we call mingle There is a concept of intelligence natural or artificial and there is a concept of consciousness of experience natural or artificial Those are very very different things Now historically we associate consciousness with intelligence Why Because we live in a world leaving aside computers of of natural selection where we are surrounded by creatures either our own kin that are less or more intelligent or we go across feces Some some are more adapted to a particular environment Others are less adapted whether it's a whale or a dog or you go talk about a permeti or a little worm All right And and we see the complexity of the nervous system goes from one cell to to specialized cells to a worm that has three net that has 30% of cells are nerve cells to creature like us or like a blue whale that has 100 billion even more nerve cells And so based on behavioral evidence and based on the underlying neuroscience we believe that as these creatures become more complex they are better adapted to to their particular ecological niche And they become more conscious partly because their brain grows And we believe consciousness unlike the ancient ancient people thought most almost every culture thought that consciousness with intelligence has to do with your heart And you still say that today you see honey I love you with all my heart But what you should actually say is you say no honey I love you with all my lateral hypothalamus And for Valentine's Day you should give your sweetheart Uh uh you know uh hypothalamic piece of chocolate not a heart shaped chocolate right Anyway so we still have this language but now we believe it's a brain And so we see brains of different complexity and we think well they have different levels of consciousness they're capable of different experiences Um But now we confront the world where we know where we're beginning to engineer intelligence and it's radical unclear whether the intelligence we're engineering has anything to do with consciousness and whether it can experience anything because fundamentally what's the difference intelligence is about function intelligence no matter exactly how you define it sort of adaptation to new environments being able to learn and quickly understand you you know the setup of this and what's going on and who are the actors and what's gonna happen next That's all about function consciousness is not about function consciousness is about being it's in some sense much fundamental You can see you can see this in in several cases you can see it for instance in the case of the clinic when you're dealing with patients who are let's say had a stroke or had were in traffic accident et cetera They're pretty much immobile Terry Sho you may have heard historically she was a person here in the in the nineties in Florida her heart stood still She was reanimated and for the next 14 years she was what's called in a vegetative state There are thousands of people in the vegetative state So they you know they are you know they're like this occasionally they they open their eyes for 234568 hours and then close their eyes They have sleep wake cycle Occasionally they have behaviors they do like uh you know but there's no way that you can establish a lawful relationship between what you say or the doctor says or the mom says and what the patient does So so the so the there isn't any behavior yet in some of these people there is still experience You can you can uh design and build brain machine interfaces where you can see there's they they still experience something And of course there are these cases of locked in state There's this famous book called The the The Diving Bell and The Butterfly where you had an editor a French editor he had a stroke in the in the brain stem unable to move except his vertical eyes eye movement He could just move his eyes up and down and he dictated an entire book and some people even lose this at the end And all the evidence seems to suggest that they're still in there So in this case you have no behavior you have consciousness Second case is tonight like all of us you're going to go to sleep close your eyes you go to sleep you will wake up inside your sleeping body and you will have conscious experiences They are different from everyday experience You might fly you might not be surprised that you're flying You might meet a long dead pet childhood dog and you're not surprised that you're meeting them you know but you have conscious experience of love of hate you know they can be very emotional Your body during this state typically state sends an active signal to your motor neurons to paralyze you It's called Atonia right Because if you don't have that like some patients what do you do You act out your dreams you get for example behavioral disorder which is a bad which is bad Juju to get Ok Third case is pure experience So I recently had this what some people call a mystical experience I went to Singapore and went into a flotation tank right So this is a big tub filled with with water that's body temperature and absent salt You strip completely naked you lie inside of it you close the the the darkness complete darkness soundproof so very quickly you become body less because you're floating and you're naked you have no rings no watch no nothing You don't feel your body anymore There's no sound soundless There's no uh photon uh sightless Timeless because after a while early on you actually hear your heart But then that you you you sort of adapt to that and then sort of the passage of time ceases And if you train yourself like in a in a meditation not to think early on you think a lot it's a little bit spooky You feel somewhat uncomfortable or you think well I'm gonna get bored But if you try to not to think actively you become mindless So there you are body less timeless you know soundless sightless mindless but you're in a conscious experience you're not asleep you're not asleep You are you you are being a pure you are pure being There isn't any function You aren't doing any computation you're not remembering you're not projecting you're not planning yet You are fully conscious"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:15:0",
+  "End": "0:15:6",
+  "Text": "you're fully conscious there's something going on there It could be just a side effect So what is the the um you mean EpiPen"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:15:6",
+  "End": "0:15:7",
+  "Text": "Nomenon"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:15:7",
+  "End": "0:15:20",
+  "Text": "So what's the meaning Why uh what is the function of you being able to lay in this uh sensory free deprivation tank and still have a conscious experience"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:15:22",
+  "End": "0:16:28",
+  "Text": "Obviously we didn't evolve with flotation tanks in our in our environment I mean so biology is not totally bad at asking why question Telenor question why do we have two eyes Why don't we have four eyes like some teachers or three eyes or something Well no there there's probably there is a function to that but it's we're not very good at answering those questions We can speculate and Leslie where biology is very or science is very good about mechanistic question Why is that charge in the universe Right We find a certain universe where there are positive and negative charges Why Why does quantum mechanics hold you know why why why doesn't some other uh theory hold quantum mechanics hold in our universe is very unclear why So telenor question why questions are difficult to answer clearly there's some relationship between complexity brain processing power and consciousness But however in these cases in the three examples I I gave one is an everyday experience at night The other one is a you know Tom and the third one is in principle you can everybody can have these sort of mystical experiences You have a dissociation of function form of intelligence from um uh from conscious"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:16:28",
+  "End": "0:17:5",
+  "Text": "no consciousness You caught me asking a white question Uh Let me ask a question That's not a wide question You're giving a talk later today on the Turing test for intelligence and consciously drawing lines between the two So is there a scientific way to say there's consciousness present in this entity or not and to anticipate your answer Because you you will also there's a neurobiological answer So we can test a human brain But if you take a machine brain that you don't know tests for yet uh how would you even begin to approach a test if there's consciousness present in this thing"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:17:6",
+  "End": "0:20:32",
+  "Text": "OK That's a really good question So let me take in two steps So as you point out for for for for humans let's just stick with humans There's now a test called the zap and zip It's a procedure where you ping the brain using transcranial magnetic stimulation You look at the electrical reverberations essentially using eg and then you can measure the complexity of this brain response and you can do this in awake people in a sleep normal people you can do it in awake people and then anesthetize them you can do it in patients and it it it has 100% accuracy that in all those cases when you're clear the patient or the person is either conscious or unconscious the complexity is either high or low And then you can adopt these techniques to similar creatures like monkeys and dogs and and and mice that have very similar brains Now of course you you point out that may not help you because we don't have a cortex you know and if I send a magnetic pulse into my iphone or my computer it's probably gonna break something So we don't have that So what we need ultimately we need a theory of consciousness We can't just rely on our intuition Our intuition is well yeah if somebody talks they're conscious however then there are all these Children babies don't talk right But we believe that that the babies also have conscious experiences right And then there are all these patients I mentioned um and they don't talk when you dream you can't talk because you're paralyzed So so what what we ultimately need we can't just rely on our intuition We need a theory of conscience that tells us what is it about a piece of matter What is it about a piece of highly excitable matter like the brain or like a computer that gives rise to conscious experience We all believe none of us believe anymore in the old story It's a soul that used to be the most common explanation that most people accept that And still a lot of people today believe Well there's a as God endowed only us with a special thing that animals don't have Rene dear Famously said a dog if you hit it with your carriage may yell may cry but it doesn't have this special thing It doesn't have the magic the magic sauce it doesn't have Red CO D So now we believe that isn't the case anymore So what is the difference between brains and and these guys silicon and um in particular once their behavior matches So if you have Siri or Alexa in 20 years from now that she can talk just as good as any possible human What counts do you have to say she's not conscious in particular if she says of course she will Well of course I'm conscious You ask her how are you doing And she'll say well you know they'll generate some way to of course she'll behave like a like a person Now there are several differences One is so this relates to the problem The the the very hard why is consciousness a hard problem It's because it's subjective right Only I have it for only I know I have direct experience of my own consciousness I don't have experience in your consciousness Now I assume as a sort of a Asian person who believes in probability theory and all of that you know I can do I can do an abduction to the to the best available facts I deduce your brain is very similar to mine If I put you in a scanner your brain is roughly gonna behave the same way as I do If if if you know if I gave you this mu and ask you how does it taste You Tell me things that you know that that I would also say more or less So I infer based on all of that that you're conscious now with sir I can do that So there I really need a theory that tells me what is it about any system this or this that makes it conscious We have such a theory"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:20:32",
+  "End": "0:20:54",
+  "Text": "Yes So the integrated information theory But let me first maybe an introduction for people who are not familiar the car Can you you talk a lot about pan uh panpsychism Can you describe what uh physical versus dualism this You mentioned the soul What what is the history of that idea What the idea of"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:20:54",
+  "End": "0:20:54",
+  "Text": "Panych"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:20:55",
+  "End": "0:21:9",
+  "Text": "Oh No the debate really out of which Panpsychism can um emerge of of of um dualism versus uh physical or do you not see uh panpsychism as fitting into that"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:21:10",
+  "End": "0:21:50",
+  "Text": "You can argue there's some well OK so let's step back So Panpsychism is a very ancient belief that's been around Uh I mean Plato and Aristotle talks about it Uh modern philos talk about it Of course in Buddhism the idea is very prevalent that I mean there are different versions of it One version says everything is in salt everything rocks and stones and dogs and people and forests and iphones all of us all all matter is in salt That's sort of one version Another version is that all biology all creatures small or large from a single cell to a giant sequoia tree feel like something that's the one I think is somewhat more realistic Um So the different what do you mean by"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:21:50",
+  "End": "0:21:54",
+  "Text": "feel like something have have feelings have some kind of it's like"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:21:54",
+  "End": "0:22:4",
+  "Text": "some it may well be possible that it feels like something to be a parames I think it's pretty likely it feels like something to be a bee or a mouse or a dog"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:22:4",
+  "End": "0:22:6",
+  "Text": "Sure So OK"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:22:6",
+  "End": "0:22:44",
+  "Text": "so so that you can say that's also so Pansy is very broad and you can so some people for example uh Bertram Russell try to advocate this this idea it's called Russel and Monism that that Pansy is really physics viewed from the inside So the idea is that physics is very good at describing relationship among objects like charges or like gravity right You know describe the relationship between curvature and mass distribution OK That's the relationship among things Physics doesn't really describe the ultimate reality itself It's just relationship among you know quarks or all these other stuff"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:22:45",
+  "End": "0:22:47",
+  "Text": "like a third person observer Yes"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:22:47",
+  "End": "0:23:32",
+  "Text": "Yes And consciousness is what physics feels from the inside So my conscious experiences it's the way the physics of my brain particularly my cortex feels from the inside And so if you are paramecium you got to remember you say parameter Well that's a pretty dumb creature It is but it has already a billion different molecules probably you know 5000 different proteins assembled in a highly highly complex system that no single person no computer system so far on this planet has ever managed to accurately simulate its complexity actually escapes us Yes And it may well be that that little thing feels like a tiny bit now It doesn't have a voice in the head Like me it doesn't have expectations you know it doesn't have all that complex things but it may well feel like something Yeah"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:23:33",
+  "End": "0:23:54",
+  "Text": "So this is really interesting Can we draw some lines and maybe try to understand the difference between life intelligence and consciousness How do you see all of those if you had to define what is a living thing What is a conscious thing and what is an intelligent thing Do those intermix for you or are they totally separate"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:23:54",
+  "End": "0:23:57",
+  "Text": "OK So a that's a question that we don't have a full answer A"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:23:58",
+  "End": "0:24:2",
+  "Text": "lot of the stuff we're talking about today is full of mysteries and fascinating ones right Well"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:24:2",
+  "End": "0:26:40",
+  "Text": "folks I mean you can go to Aristotle who's probably the most important scientists and philosophers ever lived in certainly in western culture He had this idea It's called hylo mph It's quite popular these days that there are different forms of soul The soul is really the form of something he he says all biological creatures have a vegetative soul That's life principle Today we think we understand something more that it's biochemistry in nonlinear thermodynamics right Then he said they have a sensitive soul Only um animals and humans have also a sensitive soul or aet of soul They they can see they can smell and they have drives they want to reproduce they want to eat et cetera And then only humans have what he called a rational soul OK And and that idea that made it into Christen Dome and then the rational soul is the one that lives forever He was very unclear He wasn't really I mean different readings of Aristotle give different whether did he believe that rational soul was immortal or not I probably think he didn't But then of course I made it into a plato into Christianity and then the soul became immortal and then became the the connection after to God Now you you so you asked me essentially what that's our modern conception of these three Ar Aristotle would have called them different forms life We think we know something about it at least life on this planet right Although we don't understand how to originate it but it's it's been difficult to rigorously pin down You see this in modern definitions of death It's in fact right now there's a conference ongoing again that tries to define legally and medically What is death It used to be very simple Death is you stop breathing your heart stops beating you're dead right Totally uncontroversial If it's if you're unsure you wait another 10 minutes If the patient doesn't breathe you know he's dead Well now we have ventilator we have hard pacemaker So it's much more difficult to define what death is Typically Death is defined as the end of life and life is defined before death Ok So we don't have really very good definitions Intelligence We don't have a rigorous definition we know something how to measure it's called IIQ or G factors right And and we're beginning to build it in in a narrow sense right Like go alpha go and and and and Watson and you know Google Cars and Uber cars and all of that that's still narrow A I and some people are thinking about artificial general intelligence but roughly as we said before it's something to do with the ability to learn and to adapt to new environments But that is as I said also it's radical difference from experience And it's very unclear if you build a machine that has a G I it's not at all it's not at all clear that this machine will have consciousness it may or may not"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:26:40",
+  "End": "0:26:59",
+  "Text": "So let's ask it the other way do you think if you were to try to build an artificial general intelligence system do you think uh figuring out how to build artificial consciousness would would help you get to to an A G I So or put another way do you think intelligent requires consciousness"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:27:0",
+  "End": "0:29:36",
+  "Text": "in human It goes hand in hand in human or I think in biology consciousness intelligence goes hand in hand Quay is illusion because the the brain evolved to be highly complex complexity Via the theory integrated information theory is sort of ultimately is is what is closely tied to consciousness Ultimately it's causal power upon itself And so in eu in evolved systems they go together in artificial system particularly in digital machines they do not go together And if you ask me point blank is Alexa 20.0 in the year 2040 when she can easily pass every turing test she can't just know even if she claims she's conscious In fact you could even do a more radical version of this thought experiment We can build a computer simulation of the human brain You know what Henry Markham in the blue brain project or the human brain project in Switzerland is trying to do let's grant him all the success So in 10 years we have this perfect simulation of the human brain Every neuron is simulated and it has alaric and it has motor neurons it has a a podcast area and of course they'll talk and they'll say hi I just woke me up I feel great OK Even that computer simulation that can imprint a map onto your brain will not be conscious Why Because it simulates it's a difference between the simulated and the real So it simulates the behavior associated with consciousness It might be it will if it's done properly will have all the intelligence that that particular person they're simulating has But simulating intelligence is not the same as having conscious experiences And I give you a really nice metaphor that engineers and physicists typically get I can write down Einstein's field equation nine or 10 equations that describe the link in general relativity between curvature and and mass I can do that I can run this on my laptop to to predict that the central the black hole at the center of our galaxy will be so many that it will twist space time around it So no light can escape It's a black hole right But funny Have you ever wondered why doesn't this computer simulation suck me in Right It simulates gravity but it doesn't have the causal power of gravity That's a huge difference So it's a difference between the real and and the simulator just like it doesn't get wet inside a computer when the computer runs code that simulates a weather storm And so in order to have to have artificial consence you have to give it the same causal power as a human brain You have to build so called a neuromorphic machine that has hardware that is very similar to the human brain not a digital clock for Neumann computer So"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:29:36",
+  "End": "0:30:54",
+  "Text": "that's just to clarify the you think that consciousness is not required to create human level intelligence it seems to accompany in the human brain but for a machine Not of course So maybe just because this is a G I let's dig in a little bit about what we mean by intelligence So one thing is the G factor of these kind of IQ tests of intelligence But I think if you maybe another way to say so in 2040 2050 people have Siri That is just really impressive Do you think people will say serious intelligent Yes intelligence is this amorphous thing So to be intelligent it seems like you have to have some kind of connections with other human beings in the sense that you have to impress them with your intelligence And there feels you have to somehow operate in this world full of humans And for that there feels like there has to be something like consciousness So you think you can have just the world's best natural L LP system natural language understanding and generation and that will be that will get us happy and say you know what we've created in a gi I don't know"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:30:54",
+  "End": "0:31:17",
+  "Text": "happy Yes I do believe we can get what we call high level function intelligence particular sort of the g you know this this um fluid like intelligence that we challenge particularly the place like mit right In in in machines I see a probably no reasons and I see a lot of reason to believe it's going to happen very you know over the next 50 years or 30 years"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:31:18",
+  "End": "0:31:35",
+  "Text": "So for beneficial A I for creating an A I system That's um so you mentioned ethics that is exceptionally intelligent but also does not do does you know aligns its values with our values of humanity Do you think then in his consciousness"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:31:35",
+  "End": "0:32:31",
+  "Text": "I think that that is a very good argument that if we're concerned about A I and the threat of A I ala Nick Bostrom threat I think having an intelligence that has empathy Right Why do we find abusing a dog Why do most of us find that abhorrent abusing any animal Right Why do we find that um abhorrent because we have this thing called empathy which if you look at the Greek really means feeling with I feel it pathos empathy I have feeling with you I see somebody else suffer that isn't even my conspecific It's not a person it's not a love it's not my wife or my kids It's it's a dog But I feel naturally most of us not all of us most of us will feel emphatic And so it may well be in the long term interest of survival of Homo Sapiens Sapiens that if we do build a G I and it's really becomes very powerful that it has an emphatic response and doesn't just exterminate humanity"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:32:31",
+  "End": "0:33:2",
+  "Text": "So as part of the full conscious experience to to create a consciousness artificial or in our human consciousness do you think fear Maybe we're going to get into uh your earlier days with Nietzsche and so on But do you think fear and suffering are essential to have consciousness Do you have to have the full range of experience to have to have a system that has experience or can you have a system that only has a very particular kinds of very positive experiences Look you"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:33:2",
+  "End": "0:34:7",
+  "Text": "can have in principle you can people have done this in the rat where you implant an electrode in the hypothalamus the pleasure center of the rat and the rat stimulate itself above and beyond anything else It doesn't care about food or natural sex or or drink anymore to stimulate itself because it's it's such a pleasurable feeling I guess it's like an orgasm just you have you know all day long And so a priori I see no reason why you need um different why you need a great variety now clearly to survive that wouldn't work right But if I engineered artificially I don't think um I don't think you need uh a great variety of conscious expense You could have just pleasure or just fear It might be a terrible existence But I think that's possible at least on conceptual logical count cause any real creature with artificial engineer you wanna give it fear the fear of extinction right That we all have Uh And you also want to give it a positive appetitive states states that it wants to that you want the machine encouraged to do because they give the machine positive feedback"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:34:7",
+  "End": "0:34:28",
+  "Text": "So uh you mentioned panpsychism to jump back a little bit you know everything having some kind of mental property Uh How do you go from there to something like human consciousness So everything having some elements of consciousness is there something special about human consciousness So"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:34:28",
+  "End": "0:35:25",
+  "Text": "so just it's not everything like a spoon There's no I the the form of Pentagon I think about doesn't ascribe consciousness to anything like this the spoon or my liver However uh it is uh the theory the integrated information theory does say that system even one that look from the outside relatively simple At least if they have this internal causal power They are they they they it does feel like something The theory Apollo doesn't say anything what's special about human biologically we know what the one thing that's special about human is we speak and we have an overblown sense of our own importance We believe we are exceptional and we're just God's gift to to to the universe But the but behaviorally the main thing that we have we can we can plan over the long term and we have language and that gives us an enormous amount of power and that's why we are the the current dominant species on the planet"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:35:25",
+  "End": "0:35:51",
+  "Text": "So you mentioned God you grew up a devout Roman Catholic uh you know Roman Catholic family So you know with consciousness you're sort of exploring some really deeply fundamental human things that religion also touches on So where does where does religion fit into your thinking about consciousness And you've you've grown throughout your life and changed your views on religion as far as I understand"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:35:52",
+  "End": "0:36:40",
+  "Text": "Yeah I mean I'm now much closer to So I I'm not a Roman Catholic anymore I don't believe there's sort of this God the God I was I was educated to believe in you know sit somewhere in the fullness of time I'll be united in some sort of everlasting bliss I I just don't see any evidence for that Look The world the night is large and full of wonders Right There are many things that I don't understand I think many things that we as a cult look we don't even understand more than 4% of all the uh the universe right Dark matter dark energy we have no idea what it is maybe it's lost So what do I know So so all I can tell you is it's a sort of my my current religious or spiritual sentiment is much closer to some form of Buddhism without the reincarnation Unfortunately there's no evidence for any reincarnation"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:36:41",
+  "End": "0:36:44",
+  "Text": "So can you describe the way Buddhism sees the world a little"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:36:44",
+  "End": "0:38:3",
+  "Text": "bit Well so you know they talk about so when when I I spent several meetings with the with the Dalai Lama and what always impressed me about him He really unlike for example let's say the the the pope or some cardinal he always emphasized minimizing the suffering of all creatures So they have this from the early beginning they look at suffering in all creatures not just in people but in in everybody this universal and of course by degrees right in the animal channel will have is less capable of suffering than a than a well developed um normally developed human And um they think consciousness pervades in this universe Uh And they have these techniques you know you can think of them like mindfulness et cetera and meditation that tries to access sort of what they claim of this more fundamental aspect of reality I'm not sure it's more fundamentalist I I think about it There's a physical and then there's this inside view consciousness and those are the two aspects That's the only thing I've I have access to in my life And you got to remember my conscious experience and your conscious experience comes prior to anything you know about physics comes prior to knowledge about the universe and atoms and superstrings and molecules and all of that the only thing you directly are acquainted with is this world that's populated with with things and images and sounds in your head and touches and all of that"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:38:3",
+  "End": "0:38:20",
+  "Text": "I actually have a question So um it sounds like um you kind of have a rich life you talk about rock climbing and it seems like you really love uh literature Um Consciousness is all about experiencing things So do you think that has helped your research on this topic"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:38:20",
+  "End": "0:39:40",
+  "Text": "Yes particularly if you think about it the the various states So for example when you do rock climbing or now I do um rowing cool rowing and a bike every day You can get into this thing called the zone And I've always I wanted I wanted about about it particularly with respect to continents because it's a strangely addictive state You wanna you wanna I mean once people have it once they want to keep on going back to it and you wonder why what is it so addicting about it And I think it's the experience of of almost close to pure experience because in this in the zone you're not conscious of inner voice anymore There's always this inner voice nagging you right You have to do this you have to do that you have to pay your taxes you have to fight with your ex and all of those things they're always there But when you're in the zone all of that is gone and you're just in this wonderful state where you're fully out in the world like you're you're you're climbing or you're rowing or biking or or doing soccer or whatever you're doing and sort of consciousness sort of it is you're all action or in this case of pure experience you're not action at all But in both cases you experience some aspect of of you touch some basic part of of of conscious existence that is so basic and so deeply satisfying you I think you touch the root of being that's really what you're touching there You're getting close to the root of being and that's very different from intelligence"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:39:41",
+  "End": "0:39:49",
+  "Text": "So what do you think about the simulation hypothesis simulation theory The idea that we all live in a computer simulation have you given"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:39:50",
+  "End": "0:40:17",
+  "Text": "I think it it's as likely as the hypothesis had engaged hundreds of scholars for many centuries Are we all just existing in the mind of God And this is just a modern version of it It's it's it's it's equally plausible People love talking about these sorts of things I know their book written about this simulation hypothesis If that's what people want to do that's fine It seems rather esoteric It's never testable"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:40:18",
+  "End": "0:40:39",
+  "Text": "but it's not useful for you to think of it in those terms So maybe connecting to the questions of free will which you've talked about Um I I think I vaguely remember you saying that the idea that there's no free will uh it makes you very uncomfortable So what do you think about free will And from the from a physics perspective from a conscious perspective what is it all"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:40:40",
+  "End": "0:41:3",
+  "Text": "OK So from the physics perspective leaving aside quantum mechanics we believe we live in a fully deterministic world right But then comes of course quantum mechanics So now we know that certain things are in principle not predictable which I as you said I prefer because the idea that the the initial condition of the universe and then everything else we're just acting out the initial condition of the universe That doesn't that doesn't"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:41:3",
+  "End": "0:41:5",
+  "Text": "it's not a romantic notion"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:41:5",
+  "End": "0:42:5",
+  "Text": "Certainly not right now when it comes to consciousness I think we do have certain freedom We are much more constrained by physics of course And by our past and by our own conscious desires what our parents told us and what our environment tells us We we all know that there's hundreds of experiments that show how we can be influenced But finally in the in the final analysis when you make a life and I'm talking really about critical decisions where you really think should I marry Should I go to this school or that school Should I take this job or that job Should I cheat on my taxes or not Right The sort of these are things where you really deliberate and I think on those conditions you are as free as you can be when you when you bring your entire being your entire conscious uh uh uh being to that question and try to ana analyze it on all the the various conditions and then you take um you make a decision you are as free as you can ever be That is I think what what free will is it's not a will that's totally free to do anything it wants That's not possible"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:42:5",
+  "End": "0:42:27",
+  "Text": "right So as Jack mentioned you actually read a blog about books You've read amazing books from Russian from Bulgakov Yeah Neil Gaiman Carl Sagan Maram So what is a book that early in your life transformed the way you saw the world something that changed Your life"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:42:29",
+  "End": "0:43:0",
+  "Text": "Nietzsche I guess did thus spoke out twister because he talks about some of these problems you know he was one of the first discoverer of the unconscious This is you know a little bit before uh Freud when he was in the air and you know he makes all these claims that people sort of under the guise of under the mass of charity actually are very non charitable Um So he is sort of really the first discoverer of the great land of the of the unconscious And that that really caught"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:43:0",
+  "End": "0:43:12",
+  "Text": "me And what do you think What do you think about the unconscious What do you think about Freud What do you think about these ideas What's what's just like dark matter in the universe What's so over there and that unconscious a lot"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:43:12",
+  "End": "0:44:29",
+  "Text": "I mean much more than we think this is what a lot of last 100 years of research has shown So I think he was a genius misguided towards the end but he was all he started out as a neuroscientist but he contributed he did the studies on the um on the lamp he contributed himself to the neuron hypothesis the idea that there are discrete units that we call nerve cells now And then he started then he he wrote you know about the unconscious and I think it's true there's lots of stuff happening You feel this particular when you're in a relationship and it breaks a Thunder right And then you have this terrible you can have love and hate and lust and anger and all of it is mixed in And when you try to analyze yourself why am I so upset It's very very difficult to penetrate to those basements those caverns in your mind because the prying eyes of conscience doesn't have access to those but that they are in the Amygdala or you know lots of other places they make you upset or angry or sad or depressed And it's very difficult to try to actually uncover the reason You can go to a shrink you can talk with your friend endlessly You construct finding a story why this happened why you love it or don't love her or whatever But you don't really know whether that's actually the whether that actually happened because you simply don't have access to those parts of the brain and they're very powerful Do you think"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:44:29",
+  "End": "0:44:36",
+  "Text": "that's a feature or a bug of our brain The fact that we have this deep difficult to dive into subconscious I"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:44:36",
+  "End": "0:45:33",
+  "Text": "think it's a feature because otherwise look we are we are like any other brain or nervous system or computer We are severely band limited If we if everything I do every emotion I feel every eye movement I make If all of that had to be under the control of consciousness I couldn't I I couldn't I wouldn't be here Right So so what you do early on your brain you have to be conscious when you learn things like typing or like riding on a bike But then what you do you train up uh I think that involves gang and strid You you train up different parts of your brain and then once you do it automatically like typing you can show you do it much faster without even thinking about it because you've got these highly specialized what Franz C and I called zombie agents that I can sort of they're taking care of that while your consciousness can sort of worry about the abstract sense of the text you want to write And I think that's true for many many"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:45:33",
+  "End": "0:45:48",
+  "Text": "things But for the things like uh all the fights you had with the ex girlfriend things that you would think are not useful to still linger somewhere in the subconscious So that seems like a bug that it would stick there"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:45:48",
+  "End": "0:45:51",
+  "Text": "You think it would be better if you can analyze it and then get it out of"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:45:51",
+  "End": "0:45:57",
+  "Text": "get out of the system or just forget it ever happened You know that that seems a very buggy kind of"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:45:57",
+  "End": "0:46:27",
+  "Text": "Well yeah in general we don't have and that's probably functional We don't have an ability unless it's extreme There are cases clinical dissociation right When people are heavily abused when they completely repress the memory But that doesn't happen in in in you know in normal people We don't have an ability to remove traumatic memories And of course we suffer from that On the other hand probably if you had the ability to constantly wipe your memory you probably do it to an extent that isn't useful to you So"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:46:28",
+  "End": "0:47:7",
+  "Text": "yeah it's a good question the balance So um on the books as Jack mentioned correct me if I'm wrong but broadly speaking academia and the different scientific disciplines certainly in engineering reading literature seems to be a rare pursuit perhaps I'm wrong in this But that's in my experience most people read much more technical text and do not sort of escape or seek truth in literature Um It seems like you do So what do you think is the value What do you think literature adds to the pursuit of scientific truth Do you think it's good It's useful for"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:47:7",
+  "End": "0:47:11",
+  "Text": "access to a much wider array of human experiences"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:47:12",
+  "End": "0:47:14",
+  "Text": "How valuable do you think it is Well"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:47:14",
+  "End": "0:47:36",
+  "Text": "if you want to understand human nature and nature in general then I think you have to better understand a wide variety of experiences not just sitting in a lab staring at a screen and having a face flashed onto you for 100 milliseconds and pushing a button That's what that's what I used to do That's what most psychologists do There's nothing wrong with that but you need to consider lots of other strange uh states you know"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:47:36",
+  "End": "0:47:38",
+  "Text": "literature is a shortcut for this"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:47:38",
+  "End": "0:48:16",
+  "Text": "Well yeah because literature that's that's what literature is all about all sorts of interesting experiences that people have The you know the contingency of it the fact that you know women experience the world different black people experience the world different And you know the one way to explain that is reading all these different literature and try to find out you you see everything so relative right You read the book three years ago they thought about certain problems very very differently than than us today We today like any culture think we know it all That's common to every culture Every culture believes that its heyday they know it all And then you realize well there's other ways of viewing the universe and some of them may have lots of things in their favor"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:48:16",
+  "End": "0:48:54",
+  "Text": "So I this is a question I wanted to ask about time scale or scale in general Uh when you with IIT or in general try to think about consciousness try to think about these ideas We kind of naturally think human time scales So do you um or and also uh entities that are sized close to humans Do you think of things that are much larger and much smaller as containing consciousness And do you think of things that take you know you know ages eons to operate in their conscious cause effect cause"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:48:54",
+  "End": "0:52:40",
+  "Text": "effect It's a very good question So I think a lot about small creatures because experimentally you know a lot of people work on flies and bees Right So most people just think they are they're just bugs for heaven's sake Right But if you look at their behavior like bees they can recognize individual humans They have this very complicated um way to communicate if you've ever been involved or you know your parents when they bought a house what sort of agonizing decision that is And bees have to do that once a year Right When they swarm in the spring and then they have this very elaborate way They have free of scouts they go to the individual sites they come back they have this power this dance literally where they dance for several days they try to recruit other needs It's very complicated decision where when they finally want to make a decision the entire swarm the scouts up the entire swarm and then go to one location They don't go to 50 they go to one location that the scouts have agreed upon by themselves That's awesome If you look at the circuit complexity it's 10 times more denser than anything we have in our brain Now they only have a million neurons but the neurons are amazingly complex complex behavior very complicated circuit So there's no question they experience something Their life is very different They're tiny they only live you know for for while workers live maybe for two months So I think and it tells you this in principle the substrate of consciousness is the substrate that maximizes the cause effect power over all possible spatial temple grains So when I think about for example do you know the science fiction story the black cloud OK It's a classic by Fred Hoy the astronomer he has this cloud intervening between the earth and the sun and the sun And um leading to some sort of to global cooling this is written in the fifties it turns out you can using the the um the radio dish they communicate was actually an entity It's actually an intelligent entity and they they they sort of they convince it to move away So here you have a radical different entity And in principle it says well you can measure the the integrated information in principle at least And yes if that if the maximum of that occurs at a time scale of months rather than in a sort of fraction of a second yes And they would experience life where each moment is a month rather than a microsecond right Rather than a fraction of a of a second in the in the human case And so there may be forms of conscience that we simply don't recognize for what they are because they are so radical different from anything you and I are used to Again that's why it's good to read or to watch science fiction movie You want to think about this like this is do you know Stanislav Lem this Polish science fiction writer he wrote Solara It was turned into a Hollywood movie His best novel was in the sixties very very engineer an engineering background His most interesting novel is called The Victorious Where Human civilization they they they they they have this mission to this planet and everything is destroyed and they discover machines humans got killed And then these machines took over And there was this machine evolution a Darwinian evolution He talks about this very vividly and finally the dominant the the dominant machine intelligence organism that survive gigantic clouds of little hexagonal universal sell out This is what in the sixties So typically they are all lying on the ground individual by themselves But in times of crisis they can communicate they assemble into gigantic nets into clouds of trillions of these particles And then they become hyper intelligent and they can beat anything that humans can can throw at it It's a very beautiful and compelling where you have an intelligence where finally the humans leave the planet they simply unable to understand and comprehend this creature And they can say well either we can nuke the entire planet and destroy it or we just have to leave because fundamentally it's an it's an alien it's so alien from us and our ideas that we cannot communicate with them"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:52:41",
+  "End": "0:53:9",
+  "Text": "Yeah actually in the conversation cellular talking to ST Steven Wolfram brought up is that there could be some ideas that you know you you already have these artificial general intelligence like super smart or maybe conscious beings in the cellular tome we just don't know how to talk to them So it's the language of communication We just don't know what to do with it So that that's one sort of view is uh consciousness is only something you can measure So it's not conscious if you can't measure it"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:53:9",
+  "End": "0:54:5",
+  "Text": "So so you're making an ontological and an epistemic statement One is they are they are it's it's just like saying they're multiverses That might be true but I can't communicate with them I don't I can't have any knowledge of them That's an epistemic argument right So those are two different things So it may well be possible Look in another case that's happening right now People are building these mini organoids Do you know about this So you know you can take stem cells from under your arm put in a dish add four transcription factors and then you can induce them to grow to grow into large well large there are a few millimeters They are like a half a million neurons that look like nerve cells in a dish called mini organoids at Harvard at Stanford everywhere They're building them It may well be possible that they're beginning to feel like something but we we can't really communicate with them right now So people are beginning to think about the ethics of this So yes he may be perfectly right but they may it's one question are they conscious or not It totally separate question How would I know those are two different things"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:54:5",
+  "End": "0:54:18",
+  "Text": "if you could give advice to a young researcher sort of dreaming of understanding or creating human level intelligence or consciousness what would you say"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:54:19",
+  "End": "0:54:21",
+  "Text": "Just follow your dreams Read"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:54:22",
+  "End": "0:54:34",
+  "Text": "widely No I mean I suppose with discipline what is the pursuit that they should take on Is it neuroscience is a competition Cognitive science Is it philosophy Is it computer science or products"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:54:36",
+  "End": "0:56:15",
+  "Text": "Um No in the sense that OK so the only known system that have high level of intelligence is Homo Sapiens So if you wanted to build it it's probably good to continue to study closely what humans do So cognitive neuroscience you know somewhere between cognitive neuroscience on the one hand then some philosophy of mind and then a IA I um computer science you can look at all the original ideas neural network they all came from neuroscience right Um Reinforce whether it's Snarky Minsky building is snarky or whether it's you know the early Schubel and Wiesel experiments at Harvard that then gave rise to networks and then multi-layered networks Um So it may well be possible In fact some people argue that to make the next big step in A I once we realize the limits of deep convolutional networks they can do certain things but they can't really understand but they don't they they don't they can't really I can't really show one image I can show you a single image of somebody a pickpocket who steals a wallet from a purse You immediately know that's a pickpocket right now Computer system would just say well it's a man it's a woman It's a purse right Unless you train this machine on showing it 100,000 pickpockets right So it doesn't it doesn't have this easy understanding that you have right So uh so some people make the I mean in order to go to the next step or you really want to build machines that understand in a way you and I we have to go to psychology we need to understand how we do it and how our brains enable us to do it And so therefore being on the cusp it's also so exciting to try to understand better our nature and then to build to take some of those inside and build them So I think the most exciting thing is somewhere in the interface between cognitive science neuroscience A I computer science and philosophy of mind"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:56:16",
+  "End": "0:56:52",
+  "Text": "Beautiful I'd say if there is from the machine learning from our from the computer science computer vision perspective many of the research just kind of ignore the way the human brain works ignore even psychology or literature or studying the brain I I would hope uh Josh Tenenbaum talks about bringing that in more and more and that's yeah Uh So you worked on some amazing stuff throughout your life What's the thing that you're um really excited about What's the mystery that you would love to uncover in the near term Beyond beyond all the mysteries that you're already surrounded by Well"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:56:52",
+  "End": "0:58:35",
+  "Text": "so there's a structure called the Klaus OK So this is a structure it's underneath our cortex It's yay big You have one on the left on the right underneath this underneath the insular it's very thin it's like one millimeter it's embedded in in wiring in white metals So it's very difficult to image And um it has uh it has connection to every cortical region And Francis Crick The last paper he ever wrote he dictated corrections the day he died in hospital on this paper He now we hypothesize well because it has this unique anatomy It gets input from every cortical area and projects back to every every cortical area that the function of this structure is similar It's just a metaphor to the role of a conductor in a symphony orchestra You have all the different cortical players you have some that do motion some that do theory of mind some that infer social interaction and color and hearing and all the different modules and cortex But of course what consciousness is consciousness puts it all together into one package right The binding problem all of that And this is really the function because it has relatively few neurons compared to cortex But it it it talks it receives input from all of them and it projects back to all of them And so we are testing that right now we've got this beautiful neuron reconstruction in the mouse called crown of thorn crown of thorn neurons that are in the cloud from that have the most widespread connection of any nerve neuron I've ever seen They're very you have individual neurons that sit in the cloud from tiny but then they have this single neurons have this huge axonal tree that cover both IPs and contra cortex and and trying to turn using you know fancy tools like optogenetics trying to turn those neons on or off and study it What happens in the in the mouse"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:58:35",
+  "End": "0:58:40",
+  "Text": "So this thing is perhaps where the parts become the whole perhaps it's one"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:58:40",
+  "End": "0:58:49",
+  "Text": "of the structures It's a very good way of putting it where the individual parts turn into the whole of the whole of the conscious experience"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:58:50",
+  "End": "0:58:55",
+  "Text": "Well with that um Thank you very much for being here today Thank you very much"
+}{
+  "Speaker": "Christof Koch",
+  "Start": "0:58:57",
+  "End": "0:58:58",
+  "Text": "Thank you very much"
+}

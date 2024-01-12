@@ -1,0 +1,336 @@
+{
+  "Speaker": "Lex Fridman",
+  "Start": "0:0:0",
+  "End": "0:1:7",
+  "Text": "Welcome to the Artificial Intelligence podcast . My name is Lex Friedman . I'm a research scientist at MIT . If you enjoy this podcast , please rate it on itunes or your podcast provider of choice or simply connect with me on Twitter and other social networks at Lex Friedman spelled Fr ID . . . . , . , . , . . , . , , . . . , . , ? ? , , . . . , , . . , , , . , , . , . . . . . , , . , . . ? . , ? , , . , , . . . . , , . , , . . . , . , . ? . , . , , , . . , , . , . , , , . , . . , ? , , , . , . , , , , . . , ? ? , , , . , , . . . . . , , . , ? . . . . . , , , . , , , . , , , , ? , , . , , , . , . . , . , , , , , , , , , . . . , , . ? , , . . . . , , . , , . , , . , , . . , . , , . , , . , , , , . , . , , . , , . , . . . . , . , . , , . , , , . , . , ? , , . , , , . , . , , , , ? , , . . , , , . . ? , , , , , , , . , , . , ? . , , , , , . . . ? , , . . , , , , , , ? . . , , , , . , . , . , ? ? ? . , . , , . , . , , . , . . , . , , , , , , , , , , , . , , . , , , , ? . , , , , . , , . . . , , . , , , . . , , , , ? ? . , , , , . . . . , , , . , . . , , . ? , ? ? . . , . , , , . . , , . , , , . , , , , , . . , , , . . . . , . , . , , , . , , . , , ? . ? ? ? , , , , , . , . , , . , , , . , , . , , . . , . . , . , , , , , . . , . . . . . , , . . , . , , . , . , , . . , . ? ? , . , , . . ? ? , , , . . , . , , . , , , . , . , , , , . , , , , , . . . . , . . , , . . , . . , , . , . . . ? . , , . , . , . . , . , , . , . . . . ? , . . ? . , , , . , , , , . , , , , . , , , , , . , , , . , , . ? . , , . , . , , , . , ? , , . , , ? . . , , , , , . , , . . , . , , . , , . . , . , ? , , . , , . . , . , , , ? , , . . , , . , . , , , , , , , , , . . . . . Today is a conversation with Yoshua Benjo along with Jeff Hinton and Jan Laon He's considered one of the three people most responsible for the advancement of deep learning during the 19 nineties and the two thousands and now cited 100 and 39,000 times He has been integral to some of the biggest breakthroughs in A I over the past three decades What difference between biological neural networks and artificial neural networks is most mysterious captivating and profound for you"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:1:9",
+  "End": "0:2:20",
+  "Text": "First of all there's so much we don't know about biological neural networks and that's very mysterious and captivating because maybe it holds the key to improving artificial neural networks One of the things I studied recently uh something that we don't know how biological neural networks do but would be really useful for artificial ones is the ability to do credit assignment through very long time Spans There are things that we can in principle do with artificial neural nets but it's not very convenient and it's not biologically plausible And this mismatch I think this kind of mismatch maybe an interesting thing to study to a understand better how brains might do these things because we don't have good corresponding theories with artificial neural nets And B maybe provide new ideas that we could explore about um things that brain do differently and that we could incorporate in artificial neural nets"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:2:20",
+  "End": "0:2:48",
+  "Text": "So let's break credit assignment up a little bit It's a beautifully technical term but it could incorporate so many things So is it more on the R and N memory side that thinking like that or is it something about knowledge building up common sense knowledge over time Or is it more in the reinforcement learning sense that you're picking up rewards over time for a particular to achieve a certain kind"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:2:48",
+  "End": "0:3:33",
+  "Text": "of goal So I was thinking more about the first two meanings whereby we store all kinds of memories um episodic memories in our brain which we can access later in order to help us both infer causes of things that we are observing now and assign credit to decisions or interpretations We came up with a while ago when you know those memories were stored and then we can change the way we would have uh reacted or interpreted things in the past And now that's created assignment used for learning"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:3:34",
+  "End": "0:3:51",
+  "Text": "So in which way do you think artificial neural networks the current LSTM the current architectures are not able to capture the presumably you're thinking of very long term"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:3:51",
+  "End": "0:4:29",
+  "Text": "So current recurrent nets are doing a fairly good job for sequences with dozens or say hundreds of time stamps And then it gets sort of harder and harder and depending on what you have to remember and so on as you consider longer durations whereas humans seem to be able to do credit assignment through essentially arbitrary times like I could remember something I did last year And then now because I see some new evidence I'm going to change my mind about uh the way I was thinking last year and hopefully not do the same mistake Again"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:4:31",
+  "End": "0:4:40",
+  "Text": "I think a big part of that is probably forgetting You're only remembering the really important things So it's very efficient forgetting Uh Yes"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:4:40",
+  "End": "0:4:59",
+  "Text": "So there's a selection of what we remember And I think uh there are really cool connection to higher level cognition here regarding consciousness deciding and and emotions like so deciding what comes to consciousness and what gets stored in memory which are not trivial either"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:5:1",
+  "End": "0:5:29",
+  "Text": "So you've been at the forefront there all along showing some of the amazing things that neural networks deep neural networks can do in the field of artificial intelligence is just broadly in all kinds of applications But uh we can talk about that forever But what in your view Because we're thinking towards the future is the weakest aspect of the way deep neural networks represent the world What is the what is in your view is missing"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:5:30",
+  "End": "0:7:42",
+  "Text": "So currently current state of the art Neil nets trained on large quantities of images or texts have some level of understanding of you know what explains those data sets But it's very basic it's it's very low level and it's not nearly as robust and abstract and general as our understanding OK So that doesn't tell us how to fix things But I think it encourages us to think about how we can maybe train our neural nets differently So that they would focus for example on causal explanation is something that we don't do currently with neural net training Also one thing I'll talk about in my talk this afternoon is instead of learning separately from images and videos on one hand and from text on the other hand we need to do a better job of um jointly learning about language and about the world to which it refers so that you know both sides can help each other We need to have good world models in in our neural nets for them to really understand sentences which talk about what's going on in the world And I think we need language input to help provide clues about what high level concepts like semantic concepts should be represented at the top levels of these neural nets In fact there is evidence that the purely unsupervised learning of representations doesn't give rise to high level representations that are as powerful as the ones we are getting from supervised learning And so the the the clues we're getting just with the labels not even sentences is already very powerful"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:7:43",
+  "End": "0:7:57",
+  "Text": "Do you think that's an architecture challenge or is it a dataset challenge Neither uh I'm tempted to just end it there Elaborate"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:7:59",
+  "End": "0:8:59",
+  "Text": "ah of course data sets and architectures are something you want to always play with But but I think the crucial thing is more the training objectives the training frameworks for example going from passive observation of data to more active agents which um uh learn by intervening in the world Uh the relationships between causes and effects Um the sort of objective functions which could be important to allow the the the the highest level uh explanations to to to rise from from the learning which I don't think we have now the kinds of objective functions which could be used to uh reward exploration the right kind of exploration So these kinds of questions are neither in the dataset nor in the architecture but more in how we learn under what objectives and so on"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:8:59",
+  "End": "0:9:41",
+  "Text": "Yeah that's uh I've I've heard you mention in several contexts the idea of sort of the way Children learn they interact with objects of the world And it seems fascinating because uh in some sense except with some cases in reinforcement learning That idea is not part of the learning process in uh artificial neural networks So it's almost like do you envision something like uh an objective function Saying you know what if you poke this object in this kind of way it would be really helpful for me to further further learn sort of almost guiding some aspect of learning"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:9:41",
+  "End": "0:10:16",
+  "Text": "So I was talking to Rebecca Sachs just an hour ago and she was talking about lots and lots of evidence from uh infants seem to clearly pick what interests them in in a directed way And so they're not passive learners they they focus their attention on aspects of the world which are most interesting surprising in in a nontrivial way that makes them change their theories of the world"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:10:18",
+  "End": "0:10:49",
+  "Text": "So uh that's a fascinating view of the future progress But on a a more maybe boring question do you think going deeper And so do you think just increasing the size of the things that have been increasing a lot in the past few years will also make significant progress So some of the representational issues that you mentioned they're kind of shallow in some sense"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:10:52",
+  "End": "0:10:53",
+  "Text": "in the sense of abstraction in"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:10:53",
+  "End": "0:10:55",
+  "Text": "the sense of abstraction they're not getting some"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:10:56",
+  "End": "0:11:4",
+  "Text": "I don't think that having more more depth in the network in the sense of instead of 100 layers we have 10,000 is going to solve our problem"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:11:4",
+  "End": "0:11:9",
+  "Text": "You don't think so is that obvious to you Yes"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:11:9",
+  "End": "0:11:44",
+  "Text": "What is clear to me is that engineers and companies and labs and grad students will continue to tune architectures and explore all kinds of tweaks to make the current state of the art slightly ever slightly better But I don't think that's going to be nearly enough I think we need some fairly drastic changes in the way that we're considering learning to achieve the goal that these learners actually understand in a deep way the environment in which they are uh you know observing and acting"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:11:44",
+  "End": "0:12:5",
+  "Text": "But I guess I was trying to ask a question that's more interesting than just more layers is basically once you figure out a way to learn through interacting how many parameters does it take to store that information So I think our brain is quite bigger than most neural"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:12:5",
+  "End": "0:13:35",
+  "Text": "networks Oh I see what you mean I'm with you there So I agree that in order to build neal nets with the kind of uh broad knowledge of the world that typical adult humans have probably the kind of competing power we have now is going to be insufficient So the good news is there are hardware companies building neal net chips and so it's going to get better However the good news in a way which is also a bad news is that even our state of the art deep learning methods fail to learn models that understand even very simple environments like some grid worlds that we have built even these fairly simple environments I mean of course if you trim them with enough examples eventually they get it But it's just like instead of what instead of uh what humans might need just uh dozens of examples these things will need millions right For very very very simple tasks And so I think there's an opportunity for academics who don't have the kind of computing power that say Google has um to do really important and exciting research to advance the state of the art in um training frameworks learning models uh agent learning in even simple environments that are synthetic that seem trivial But yet current machine learning fails on"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:13:36",
+  "End": "0:14:39",
+  "Text": "we talked about priors and common sense knowledge It seems like uh we humans take a lot of knowledge for granted Uh So what's your view of these priors of forming this broad view of the world this accumulation of information and how we can teach neural networks or learning systems to pick that knowledge up So knowledge you know for a while the artificial intelligence was maybe in the like there's a time where knowledge representation knowledge acquisition expert systems I mean the symbolic A I was was a view was an interesting problem set to solve and it was kind of put on hold a little bit it seems like because it doesn't work it doesn't work That's right That's right But the goals of that remain important yes remain important And how do you think those goals can be addressed"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:14:39",
+  "End": "0:16:37",
+  "Text": "So first of all I believe that one reason why the classical expert systems approach failed is because a lot of the knowledge we have So you talked about common sense intuition Um There's a lot of knowledge like this which is not consciously accessible There are lots of decisions we're taking that we can't really explain even if sometimes we make up a story Um And that knowledge is also necessary for machines to to to take good decisions And that knowledge is hard to codify in uh expert systems rule based systems and you know classical A I formalism And there are other issues of course with the uh old A I like Um and not really good ways of handling uncertainty I would say something more subtle which we understand better now But I think still isn't enough in the minds of people There's something really powerful that comes from distributed representations the thing that really makes neal nets work so well And it's hard to replicate that kind of power in a symbolic world the knowledge in in expert systems and so on is nicely decomposed into like a bunch of rules Whereas if you think about a neural net it's the opposite you have this big blob of parameters which work intensely together to represent everything the network knows and it's not sufficiently factorized And so I think this is one of the weaknesses of current neon nets that we have to take lessons from classical A I in order to bring in another kind of compositional which is common in language for example and in these rules but that isn't so native to Neo nets"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:16:38",
+  "End": "0:16:44",
+  "Text": "And on that line of thinking disentangled representations So"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:16:45",
+  "End": "0:19:39",
+  "Text": "so let me connect with disentangled representations if you might if you don't mind So for many years I thought and I still believe that it's really important that we come up with learning algorithms either unsupervised or supervised but or enforcement whatever that build representations in which the uh important factors Hopefully causal factors are nicely separated and easy to pick up from the representation So that's the idea of disentangled representations It says transform the data into a space where everything becomes easy We can maybe just learn with linear models about the things we care about And and I still think this is important but I think this is missing out on a very important ingredient which classical A I systems can remind us of So let's say we have these this integral representation You still need to learn about the the relationships between the variables those high level semantic variables they're not going to be independent I mean this is like too much of an assumption they're going to have some interesting relationships that allow to predict things in the future to explain what happened in the past the kind of knowledge about those relationships in a classical A I system is encoded in the rules Like a rule is just like a little piece of knowledge that says oh I have these 234 variables that are linked in this interesting way Then I I can say something about one or two of them given a couple of others right In addition to disentangling the the elements of the representation which are like the variables in a rule based system you also need to disentangle the the mechanisms that relate those variables to each other So like the rules so the rules are neatly separated like each rule is you know living on its own And when I I change a rule because I'm learning uh it doesn't need to break other rules Whereas current neon nets for example are very sensitive to what's called catastrophic forgetting where uh after I've learned some things and then I learn new things they can destroy the old things that I had learned right If the knowledge was better factorized and and uh separated disentangled then you would avoid a lot of that Now you can't do this in the sensory domain but like a pixel space But but my idea is that when you project the data in the right semantic space it becomes possible to now represent this extra knowledge beyond the transformation from input to representations which is how representations act on each other and predict the future and so on in a way that can be neatly um disentangled So now it's the rules that are disentangled from each other and not just the variables that are disentangled from each other"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:19:39",
+  "End": "0:19:46",
+  "Text": "And you draw a distinction between semantic space and pixel like does there need to be an architectural difference or Well yeah so"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:19:46",
+  "End": "0:20:19",
+  "Text": "so there's the sensory space like pixels which where everything is entangled the the the the the information like the variables are completely interdependent in very complicated ways and also computation like the the it's not just the variables it's also how they are related to each other is is all intertwined But but I I'm hypothesizing that in the right high level representation space both the variables and how they relate to each other can be disentangled And that will provide a lot of generalization power"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:20:19",
+  "End": "0:20:28",
+  "Text": "generalization power distribution of the test set is assumed to be the same as the distribution of the training"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:20:28",
+  "End": "0:21:42",
+  "Text": "set right This is where current machine learning is too weak It it it doesn't tell us anything is not able to tell us anything about how are you know let's say are going to generalize to a new distribution and and you know people may think well but there's nothing we can say if we don't know what the new distribution will be The truth is uh humans are able to generalize new distributions Yeah How are we able to do that So because there is something these new distributions even though they could look very different from the trending distributions they have things in common So let me give you a concrete example You read a science fiction novel the science fiction novel maybe you know brings you in some other planet where things look very different on the surface but it's still the same laws of physics right And so you can read the book and you understand what's going on So the distribution is very different But because you can transport a lot of the knowledge you had from earth about the underlying cause and effect relationships and physical mechanisms and all that and maybe even social interactions uh you can now make sense of what is going on on this planet where like visually for example things are totally different"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:21:44",
+  "End": "0:22:15",
+  "Text": "taking that analogy further and distorting it Let's enter a science fiction world of say uh Space Odyssey 2001 with Hal or or maybe uh which is probably one of my favorite A I movies And then and then there's another one that a lot of people love that it may be a little bit outside of the A I community is ex machina I don't know if you've seen it uh by the way what are your views on that movie Does it Are you able to enjoy"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:22:15",
+  "End": "0:22:18",
+  "Text": "There are things I like and things I hate"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:22:19",
+  "End": "0:22:54",
+  "Text": "So let me you could talk about that in the context of a question I want to ask which is there's quite a large community of people from different backgrounds often outside of A I who are concerned about existential threat of artificial intelligence And you've seen this community develop over time you've seen you have a perspective So what do you think is the best way to talk about A I safety to think about it to have discourse about it within A I community and outside and grounded in the fact that Ex Machina is one of the main sources of information for the general public about A I"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:22:54",
+  "End": "0:23:56",
+  "Text": "So I think I think you're putting it right There's a big difference between the sort of discussion we ought to have within the A I community and the sort of discussion that really matter in the general public So I think that the picture of terminator and you know A I loose and killing people and super intelligence that's going to destroy us whatever we try isn't really so useful for the public discussion Because for the public discussion the things I believe really matter are the short term and miter very likely negative impacts of A I on society whether it's from uh security like you know big brother scenarios with face recognition or killer robots or the impact on the job market or uh concentration of power and discrimination all kinds of social issues which could actually uh some of them could really threaten democracy for example"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:23:57",
+  "End": "0:24:2",
+  "Text": "just to clarify when you said killer robots you mean autonomous weapon a weapon"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:24:3",
+  "End": "0:24:58",
+  "Text": "terminator So so I think these these short and medium term concerns should be important parts of the public debate Now existential risk for me is a very unlikely consideration but still worth uh academic investigation in the same way that you could say should we study what could happen if a meteorite you know came to earth and destroyed it So I think it's very unlikely that this is going to happen in or happen in a reasonable future It's it's very um the the sort of scenario of uh an A I getting loose goes against my understanding of at least current machine learning and current neon nets and so on It's not plausible to me but of course I don't have a crystal ball and who knows what A I will be in 50 years from now So I think it is worth that scientists study those problems It's just not a pressing question as far as I'm concerned"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:24:59",
+  "End": "0:25:26",
+  "Text": "So before I continue down that line I have a few questions there But uh what what what uh what do you like and not like about X machina as a movie because I I actually watched it for the second time and enjoyed it I hated it the first time and I enjoyed it quite a bit more the second time when I sort of learned to accept uh certain pieces of it Uh see see it as a concept movie how what was your experience What what what were your thoughts"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:25:27",
+  "End": "0:26:26",
+  "Text": "So the negative is the picture it paints of science is totally wrong Science in general and A I in particular science is not happening uh in some hidden place by some really smart guy one person one person this is totally unrealistic this is not how it happens Even a team of people in some isolated place will not make it Science moves by small steps Thanks to the collaboration and um community of a large number of people interacting And um all the scientists who are experts in their field kind of know what is going on even in the industrial labs it's information flows and leaks and so on and and the spirit of it is very different from the way science is painted in this movie"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:26:26",
+  "End": "0:26:52",
+  "Text": "Yeah let me ask on that point It's been the case to this point That kind of even if the research happens inside Google or Facebook inside companies it still kind of comes out ideas come out Do you think that will always be the case with A I Is is it possible to bottle ideas to the point where there's a set of breakthroughs that go completely undiscovered by the general research community Do you think that's even possible"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:26:53",
+  "End": "0:27:14",
+  "Text": "It's possible but it's unlikely unlikely It's not how it is done now It's not how I can foresee it in in the foreseeable future But of course I don't have um a crystal ball And so who knows this is science fiction after all But but usually it's"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:27:14",
+  "End": "0:27:17",
+  "Text": "ominous that the lights went off during during that discussion"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:27:19",
+  "End": "0:28:52",
+  "Text": "So the problem again there's a you know one thing is the movie and you could imagine all kinds of science fiction The problem with for me maybe similar to the question about existential risk is that this kind of movie paints such a a wrong picture of what is actual you know the actual science and how it's going on that that it can have unfortunate effects on people's understanding of current science And and so that's kind of sad is an important principle in research which is diversity So in other words research is exploration research is exploration in the space of ideas and different people will focus on different directions and this is not just good it's essential So I'm totally fine with people exploring directions that are contrary to mine or look Ortho to mine I I I'm more than fine I think it's important I and my friends don't claim we have universal truth about especially about what will happen in the future Now that being said we have our intuitions and then we act accordingly according to where we think we can be most useful and where society has the most to gain or to lose We should have those debates and um and and and and not end up in a society where there's only one voice and one way of thinking and research money is spread out So"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:28:53",
+  "End": "0:29:23",
+  "Text": "disagreement is a is a sign of a good research good sign So the idea of bias in the human sense of bias how do you think about instilling in machine learning something that's aligned with human values in terms of bias We intuitively as human beings have a concept of what bias means of what fundamental respect for other human beings means But how do we instill that into machine learning systems Do you think"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:29:24",
+  "End": "0:32:27",
+  "Text": "So I think there are short term things that are already happening and then there are long term things that we need to do in the short term there are techniques that have been proposed and I think will continue to be improved and maybe alternatives will come up to take data sets in which we know there is bias we can measure it pretty much any data set where humans are you know being observed taking decisions will have some sort of bias discrimination against particular groups and so on And we can use machine learning techniques to try to build predictors classifiers that are going to be less biased Uh We can do it for example using adversarial methods to make our systems less sensitive to these variables we should not be sensitive to So these are clear well defined ways of trying to address the problem maybe they have weaknesses and you know more research is needed and so on But I think in fact they're sufficiently mature that governments should start regulating companies where it matters say like insurance companies so that they use those techniques because those techniques will probably reduce the bias But at a cost for example maybe their predictions will be less accurate and so companies will not do it until you force them All right So this is short term long term I'm really interested in thinking of how we can instill moral values into computers Obviously this is not something we'll achieve in the next five or 10 years How can we you know there's already work in detecting emotions for example in images and sounds and texts and also studying how different agents interacting in different ways may correspond to patterns of say injustice which could trigger anger So these are things we can do in in the medium term and eventually train computers to model For example how humans react emotionally Uh I would say the simplest thing is unfair situations which trigger anger This is one of the most basic emotions that we share with other animals I think it's quite feasible within the next few years So we can build systems that can detect these kind of things to the extent Unfortunately that they understand enough about the world around us which is a long time away But maybe we can initially do this in virtual environments So you can imagine like a video game where agents interact in in some ways and then some situations trigger an emotion Uh I think we could train machines to detect those situations and predict that the particular emotion you know will likely be uh felt If a human was playing one of the characters"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:32:27",
+  "End": "0:33:0",
+  "Text": "you have shown excitement and done a lot of excellent work with supervised learning But on the super you know there's been a lot of success on the supervised learning And one of the things I'm really passionate about is how humans and robots work together And in the context of supervised learning that means the process of annotation Do you think about the problem of annotation of put in a more interesting way is humans teaching machines Is there"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:33:1",
+  "End": "0:34:59",
+  "Text": "I think it's an important subject reducing it to annotation may be useful for somebody building a system tomorrow But longer term the process of teaching I think it's something that deserves a lot more attention from the machine learning community So there are people who coined the term machine teaching So what are good strategies for teaching a learning agent And can we uh design train a system that gonna be is going to be a good teacher So so in my group we have a project called the BB I or BB I game where there is a game or a scenario where there is a learning agent and a teaching agent presumably the teaching agent would eventually be a human Um But we're not there yet Um And the um the role of the teacher is to use its knowledge of the environment which it can acquire using whatever way brute force um to help the learner learn as quickly as possible So the learner is going to try to learn by itself maybe be using some exploration and and whatever Um But the teacher can choose can can can have an influence on the interaction with the learner So as to guide the learner um maybe teach it the things that the learner has most trouble with or just at the boundary between what it knows and doesn't know and so on So there's there's a there's a tradition of these kind of ideas from other fields and um uh like tutorial systems for example in A I Um And and of course people in in in the humanities have been thinking about these questions but I think it's time that machine learning people um look at this because in the future we'll have more and more uh human machine interaction with a human in the loop And I think understanding how to make this work better All the"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:34:59",
+  "End": "0:35:22",
+  "Text": "problems around that are very interesting and not sufficiently addressed You've done a lot of work with language too What aspect of the traditionally formulated turing test a test of natural language understanding and generation in your eyes is the most difficult of conversation in your eyes Is the hardest part of conversation to solve for machines"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:35:22",
+  "End": "0:36:13",
+  "Text": "So I would say it's everything having to do with the non linguistic knowledge which implicitly you need in order to make sense of sentences things like the winner Grand Schemas So these sentences that are semantically ambiguous In other words you need to understand enough about the world in order to really interpret properly those sentences I think these are interesting challenges for machine learning because they point in the direction of building systems that both understand how the world works And there's causal relationships in the world and associate that knowledge with how to express it in language either for reading or writing you speak French Yes it's my mother tongue It's"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:36:13",
+  "End": "0:36:26",
+  "Text": "one of the romance languages Uh Do you think passing the turing test and all the underlying challenges we just mentioned depend on language Do you think it might be easier in French than it is in English or is independent of language"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:36:27",
+  "End": "0:36:44",
+  "Text": "I think it's independent of language I would like to build systems that can use the same principles the same learning mechanisms to learn from human agents whatever their language"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:36:45",
+  "End": "0:37:16",
+  "Text": "Well certainly us humans can uh talk more beautifully and smoothly in poetry So I'm Russian originally I know poetry in Russian is maybe easier to convey complex ideas than it is in English But maybe I'm showing my bias and some people could say that about French But of course the goal ultimately is our human brain is able to utilize any kind of those languages to use them as tools to convey meaning"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:37:16",
+  "End": "0:37:29",
+  "Text": "Yeah of course there are differences between languages and maybe some are slightly better at some things But in the grand scheme of things uh where we're trying to understand how the brain works and language and so on I think these differences are minute"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:37:31",
+  "End": "0:37:42",
+  "Text": "So you've lived perhaps through an A I winter of sorts Yes How did you stay warm and continue with your research"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:37:42",
+  "End": "0:37:44",
+  "Text": "Stay warm with friends with"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:37:44",
+  "End": "0:37:50",
+  "Text": "friends OK So it's important to have friends and uh what have you learned from the experience"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:37:51",
+  "End": "0:38:14",
+  "Text": "Listen to your inner voice Don't you know be trying to just please the crowds and the fashion and uh if you have a strong intuition about something that is not contradicted by actual evidence go for it I mean it could be contradicted by people"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:38:15",
+  "End": "0:38:18",
+  "Text": "but not your own instinct of based on everything"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:38:18",
+  "End": "0:38:45",
+  "Text": "you of course of course you have to adapt your beliefs when your experiments contradict those beliefs But but you have to stick to your beliefs otherwise um it's it's it's what allowed me to go through those years It's what allowed me to persist in directions that you know took time whatever other people think took time to mature and you know bring fruits"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:38:46",
+  "End": "0:39:10",
+  "Text": "So history of A I is marked with these um of course it's marked with technical breakthroughs but it's also marked with these seminal events that capture the imagination of the community Most recent I would say uh Alpha Go beating the world champion human Go player was one of those moments What do you think the next such moment might be"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:39:11",
+  "End": "0:40:6",
+  "Text": "OK So 1st 1st of all I think that these so called seminal events are overrated Uh As I said science really moves by small steps Now what happens is you make one more small step and it's like the drop that uh you know allows to that fills the bucket and uh and then you have drastic consequences because now you are able to do something you were not able to do before or now say the cost of building some device or solving a problem becomes um cheaper than what existed And and you have a new market that opens up right So so especially in the world of commerce and and applications the impact of a small scientific progress could be huge Um But in the science itself I think it's very very gradual and um"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:40:6",
+  "End": "0:40:10",
+  "Text": "where are these steps being taken now So there is unsupervised"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:40:11",
+  "End": "0:41:17",
+  "Text": "So if I look at one trend that I like in uh in my community Um So for example at Milan and my institute what are the two hottest topics Gans and reinforcement learning even though uh in in Montreal in particular like reinforcement learning was something pretty much absent just two or three years ago So it it there's really a big interest from students and there's a big interest from people like me So I would say this is something where we're going to see more progress even though it hasn't yet provided much in terms of actual industrial fallout Like even though there's Alphago there's no like Google is not making money on this right now But I think over the long term this is really really important for many reasons So in other words agent I would say reinforcement learning may be uh more generally agent learning because it doesn't have to be with rewards It could be in all kinds of ways that an agent is learning about its environment"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:41:18",
+  "End": "0:41:29",
+  "Text": "Now reinforcement learning you're excited about Do you think do you think Gans could provide something Yes a moment in in games"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:41:30",
+  "End": "0:42:13",
+  "Text": "or other jar of models I believe will be crucial ingredients in building agents that can understand the world A lot of the uh successes in reinforcement learning in the past has been with uh policy gradient where you you just learn a policy you don't actually learn a model of the world But there are lots of issues with that Um And we don't know how to do model based RL right now but I think this is where we have to go in order to build models that can generalize faster and better like to new distributions um that capture to some extent at least the underlying causal mechanisms in the world"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:42:13",
+  "End": "0:42:28",
+  "Text": "Last question what made you fall in love with artificial intelligence if you look back what was the first moment in your life when you s when you were fascinated by either the human mind or the artificial mind"
+}{
+  "Speaker": "Yoshua Bengio",
+  "Start": "0:42:29",
+  "End": "0:42:51",
+  "Text": "You know when I was an adolescent I was reading a lot and then I I started reading science fiction There you go I got that's that's it That's that's where I got hooked And then um and then you know I had one of the first personal computers and uh I I got hooked in programming and so it just you know start with"
+}{
+  "Speaker": "Lex Fridman",
+  "Start": "0:42:51",
+  "End": "0:42:56",
+  "Text": "fiction and then make it a reality That's right Yoha Thank you so much for talking to us Pleasure"
+}

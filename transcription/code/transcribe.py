@@ -1,4 +1,4 @@
-import boto3
+import boto3, settings
 
 # functions
 def amazon_transcribe(input_object, max_speakers = -1):
@@ -7,9 +7,10 @@ def amazon_transcribe(input_object, max_speakers = -1):
     raise ValueError("Maximum detected speakers is 10.")
  
   job_name = input_object.key.split("/")[1]
+  if job_name == "": return # noop on empty file name
   file_name = job_name
 
-  uri_base = "s3://esteinholtz-audio/lex-audio/" # constant
+  uri_base = "s3://" + settings.BUCKET_NAME +  "/" + settings.BUCKET_PREFIX_AUDIO + "/"
   job_uri = uri_base + file_name
 
   transcribe = sandbox_session.client('transcribe', region_name='eu-central-1')
@@ -19,12 +20,12 @@ def amazon_transcribe(input_object, max_speakers = -1):
   try:
     response = transcribe.get_transcription_job(TranscriptionJobName=job_name)
   except:
-    print("Jobname did not exist: ", job_name)
+    print("Jobname did not exist: ", job_name + ". creating...")
     mediaformat=file_name.split('.')[1]
-    outputkey="lex-transcripts/" + file_name.split(".")[0] + ".json"
+    outputkey=settings.BUCKET_PREFIX_TRANSCRIPTS + file_name.split(".")[0] + ".json"
 
     transcribe.start_transcription_job(
-        OutputBucketName="esteinholtz-audio",
+        OutputBucketName=settings.BUCKET_NAME,
         OutputKey=outputkey,
         TranscriptionJobName=job_name,
         Media={'MediaFileUri': job_uri},
@@ -38,15 +39,14 @@ def amazon_transcribe(input_object, max_speakers = -1):
     print ("job name already taken")
     return 1
 
-#initialize, get the files
-sandbox_session = boto3.session.Session(profile_name='sandbox')
+# -- main --
+  
+# initialize, get the files
+sandbox_session = boto3.session.Session(profile_name=settings.PROFILE_NAME)
 s3_resource = sandbox_session.resource("s3")
 
-my_bucket = s3_resource.Bucket('esteinholtz-audio')
-objects = list(my_bucket.objects.filter(Prefix='lex-audio/mit_ai_sam_a'))
-#objects2 = list(my_bucket.objects.filter(Prefix='lex-audio/mit_ai_ian'))
-#objects.append(objects2[0])
-
+my_bucket = s3_resource.Bucket(settings.BUCKET_NAME)
+objects = list(my_bucket.objects.filter(Prefix=settings.BUCKET_PREFIX_AUDIO)) 
 
 print("ready to process....:")
 for file in objects:
