@@ -1,5 +1,6 @@
 import settings
 import boto3
+import os
 
 sandbox_session = boto3.session.Session(profile_name=settings.PROFILE_NAME)
 s3 = sandbox_session.client("s3")
@@ -21,6 +22,11 @@ for obj in objects:
         fsplit = filename.split(".")
         if len(fsplit) > 0:
             if fsplit[-1] == "json":
-                with open(settings.TARGET_DIR + "/" + filename, 'wb') as f:
+                local_file = settings.TARGET_DIR + "/" + filename
+                if os.path.isfile(local_file):
+                    print ("skipping existing file: " + local_file)
+                    continue
+                print("downloading: " + local_file)
+                with open(local_file, 'wb') as f:
                     s3.download_fileobj(settings.BUCKET_NAME, obj.key, f)
                     

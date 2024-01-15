@@ -1,5 +1,6 @@
 import json
 import argparse, time, os
+import settings
 
 def transform_json(input_json, speaker_guest):
     # create ouput dir and cd into it
@@ -10,7 +11,7 @@ def transform_json(input_json, speaker_guest):
 
 
     outfilename = "/Users/eriksteinholz/src/lex-in-a-box/transcription/transcriptions/transformed/" + "_".join(speaker_guest.split(" ")) + ".json"
-    speaker_host = "Lex Fridman"
+    speaker_host = settings.SPEAKER_HOST
 
 
     speaker_labels = input_json.get("results", {}).get("speaker_labels", {}).get("segments", [])

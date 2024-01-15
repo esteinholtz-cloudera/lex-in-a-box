@@ -13,7 +13,7 @@ def amazon_transcribe(input_object, max_speakers = -1):
   uri_base = "s3://" + settings.BUCKET_NAME +  "/" + settings.BUCKET_PREFIX_AUDIO + "/"
   job_uri = uri_base + file_name
 
-  transcribe = sandbox_session.client('transcribe', region_name='eu-central-1')
+  transcribe = sandbox_session.client('transcribe', region_name=settings.AWS_REGION)
   print("job Name: " + job_name)
 
   # check if name is taken or not
@@ -22,7 +22,7 @@ def amazon_transcribe(input_object, max_speakers = -1):
   except:
     print("Jobname did not exist: ", job_name + ". creating...")
     mediaformat=file_name.split('.')[1]
-    outputkey=settings.BUCKET_PREFIX_TRANSCRIPTS + file_name.split(".")[0] + ".json"
+    outputkey=settings.BUCKET_PREFIX_TRANSCRIPTS + "/" + file_name.split(".")[0] + ".json"
 
     transcribe.start_transcription_job(
         OutputBucketName=settings.BUCKET_NAME,
