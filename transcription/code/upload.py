@@ -7,7 +7,7 @@ from os import listdir
 from os.path import isfile, join
 
 def upload_file (input_file_path):
-    s3.meta.client.upload_file(Filename=input_file_path, Bucket=settings.BUCKET_NAME, Key=key_from_localFN(input_file_path))
+    s3.meta.client.upload_file(Filename=input_file_path, Bucket=settings.AWS_BUCKET_NAME, Key=key_from_localFN(input_file_path))
 
 def check(client, bucket, key):
     try:
@@ -17,12 +17,12 @@ def check(client, bucket, key):
     return False
 
 def key_from_localFN(localname):
-    return settings.BUCKET_PREFIX_AUDIO + "/" + localname.split("/")[-1]
+    return settings.AWS_BUCKET_PREFIX_AUDIO + "/" + localname.split("/")[-1]
 
 # main --
 # initialize
 
-session = boto3.session.Session(profile_name=settings.PROFILE_NAME)
+session = boto3.session.Session(AWS_PROFILE=settings.AWS_PROFILE)
 
 s3 = session.resource('s3') # Redundant -- remove & replace with s3_service
 s3_service = boto3.resource(service_name='s3')
@@ -35,7 +35,7 @@ podcast_files = [join(mypath, f) for f in listdir(mypath) if isfile(join(mypath,
 
 for f in podcast_files:
     AWS_key = key_from_localFN(f)
-    free  = check(s3_client, settings.BUCKET_NAME, AWS_key)
+    free  = check(s3_client, settings.AWS_BUCKET_NAME, AWS_key)
     if free:
         print ("Uploading:        " + f + " to " + AWS_key)
         upload_file(f)

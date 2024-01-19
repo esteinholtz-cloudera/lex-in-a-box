@@ -10,7 +10,7 @@ def amazon_transcribe(input_object, max_speakers = -1):
   if job_name == "": return # noop on empty file name
   file_name = job_name
 
-  uri_base = "s3://" + settings.BUCKET_NAME +  "/" + settings.BUCKET_PREFIX_AUDIO + "/"
+  uri_base = "s3://" + settings.AWS_BUCKET_NAME +  "/" + settings.AWS_BUCKET_PREFIX_AUDIO + "/"
   job_uri = uri_base + file_name
 
   transcribe = sandbox_session.client('transcribe', region_name=settings.AWS_REGION)
@@ -22,10 +22,10 @@ def amazon_transcribe(input_object, max_speakers = -1):
   except:
     print("Jobname did not exist: ", job_name + ". creating...")
     mediaformat=file_name.split('.')[1]
-    outputkey=settings.BUCKET_PREFIX_TRANSCRIPTS + "/" + file_name.split(".")[0] + ".json"
+    outputkey=settings.AWS_PREFIX_TRANSCRIPTS + "/" + file_name.split(".")[0] + ".json"
 
     transcribe.start_transcription_job(
-        OutputBucketName=settings.BUCKET_NAME,
+        OutputBucketName=settings.AWS_BUCKET_NAME,
         OutputKey=outputkey,
         TranscriptionJobName=job_name,
         Media={'MediaFileUri': job_uri},
@@ -42,11 +42,11 @@ def amazon_transcribe(input_object, max_speakers = -1):
 # -- main --
   
 # initialize, get the files
-sandbox_session = boto3.session.Session(profile_name=settings.PROFILE_NAME)
+sandbox_session = boto3.session.Session(AWS_PROFILE=settings.AWS_PROFILE)
 s3_resource = sandbox_session.resource("s3")
 
-my_bucket = s3_resource.Bucket(settings.BUCKET_NAME)
-objects = list(my_bucket.objects.filter(Prefix=settings.BUCKET_PREFIX_AUDIO)) 
+my_bucket = s3_resource.Bucket(settings.AWS_BUCKET_NAME)
+objects = list(my_bucket.objects.filter(Prefix=settings.AWS_BUCKET_PREFIX_AUDIO)) 
 
 print("ready to process....:")
 for file in objects:

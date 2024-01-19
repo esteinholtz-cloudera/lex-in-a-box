@@ -1,10 +1,12 @@
 {
     "configurations": [
+
         {
             "name": "Python Debugger: Python File with arguments",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}"
+            "program": "${file}",
+            "args": ["transcription/transcriptions/lex_ai_sam_harris_2_A.json"]
         }
     ]
 }

@@ -1,9 +1,9 @@
 ## workflow to transcribe the Lex podcast
 
 1. start by uploading mp3's found at lexfridman.com
-   1. to the AWS bucket BUCKET_NAME that is pointed out by settings.py, and put it in the dir BUCKET_PREFIX_AUDIO
+   1. to the AWS bucket AWS_BUCKET_NAME that is pointed out by settings.py, and put it in the dir AWS_BUCKET_PREFIX_AUDIO
 2. Run transcribe.py
-3. Run download.py. The files will be downloaded to TARGET_DIR
+3. Run download.py. The files will be downloaded to RAW_TRANSCRIPTS
 4. Finally, run the transform_output.py as below:
 
 

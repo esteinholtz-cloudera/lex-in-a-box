@@ -5,14 +5,12 @@ import settings
 def transform_json(input_json, speaker_guest):
     # create ouput dir and cd into it
     
-    newdir = "out/" + speaker_guest
+    newdir = settings.TRANSFORMED_TRANSCRIPTS + "/" + "_".join(speaker_guest.split(" "))
     os.mkdir (newdir)
     os.chdir (newdir)
 
-
     outfilename = "/Users/eriksteinholz/src/lex-in-a-box/transcription/transcriptions/transformed/" + "_".join(speaker_guest.split(" ")) + ".json"
     speaker_host = settings.SPEAKER_HOST
-
 
     speaker_labels = input_json.get("results", {}).get("speaker_labels", {}).get("segments", [])
     transcripts = input_json.get("results", {}).get("transcripts", [])
@@ -21,60 +19,74 @@ def transform_json(input_json, speaker_guest):
     # Create a dictionary to store the aggregated text for each speaker
     speaker_text = ""
     # Iterate through speaker segments
-    last_speaker = None
     start_time = 0
     end_time = 0
     
     # outfile = open(outfilename, "w")
 
-    for segment in speaker_labels:
-        speaker = segment.get("speaker_label")
-        segment_start_time = float(segment.get("start_time", 0))
-        segment_end_time = float(segment.get("end_time", 0))
+    # segment iterator
+    segment_iter = iter(speaker_labels)
 
-        # Check if the speaker has changed
-        if last_speaker is not None and speaker != last_speaker:
+    segment = next(segment_iter)
+    last_speaker = speaker = segment.get("speaker_label")
+    segment_start_time = float(segment.get("start_time", 0))
+    segment_end_time = float(segment.get("end_time", 0))
+
+    # Initialize text for the speaker
+    # speaker_text.setdefault(speaker, "")
+    speaker_text = ""
+    speaker_start_time = 0
+
+    # Iterate through items to aggregate text within the time period
+    i=0
+    for item in items:
+        i=i+1
+        #speaker = item.get("speaker")
+        
+
+        # if the speaker has changed, produce the output
+        if speaker != last_speaker:
             # Process the aggregated text for the previous speaker
-
-            produce_file(speaker_realname, toTime(start_time), toTime(end_time), speaker_text)
+            if (last_speaker == "spk_0"):
+                last_speaker_realname = speaker_host
+            else:
+                last_speaker_realname = speaker_guest
+            produce_file(last_speaker_realname, toTime(speaker_start_time), toTime(speaker_end_time), speaker_text)
 
             # Reset text and  start_time for the current/new speaker
             speaker_text = ""
-            start_time = segment_start_time
+            speaker_start_time = segment_start_time
+            last_speaker = speaker
+            
 
-        # Initialize text for the speaker
-        # speaker_text.setdefault(speaker, "")
+        item_start_time = float(item.get("start_time", segment_start_time)) # the default is for punctuations, which dont have times
+        item_content = item.get("alternatives", [{}])[0].get("content", "")
+        speaker_end_time_ = item.get("end_time", "")
+        if speaker_end_time_ != "":
+            speaker_end_time = float(speaker_end_time_)
 
-        # Find the corresponding transcript for the segment
-        transcript = next((t.get("transcript", "") for t in transcripts), "")
-
-        # Iterate through items to aggregate text within the time period
-        for item in items:
-            item_start_time = float(item.get("start_time", 0))
-            item_end_time = float(item.get("end_time", 0))
-            item_speaker = item.get("speaker_label", "")
-            item_content = item.get("alternatives", [{}])[0].get("content", "")
-
-            # Check if the item is within the time period of the speaker
-            try:
-                if segment_start_time <= item_start_time <= segment_end_time:
-                    speaker_text += item_content + " "
-            except:
-                print("bug")
-        
-        if (speaker == "spk_0"):
-            speaker_realname = speaker_host
-        else:
-            speaker_realname = speaker_guest
-
-        last_speaker = speaker
-        end_time = segment_end_time
-
+        # Check if the item is within the time period of the speaker
+        try:
+            if item_start_time <= segment_end_time:
+                if (item_start_time != segment_start_time) and (item_start_time != 0): #it is not a punctuation
+                     speaker_text += " "
+                speaker_text += item_content
+            else:
+                # next segment
+                segment = next(segment_iter)
+                segment_end_time = float(segment['end_time'])
+                speaker = segment['speaker_label']
+        except:
+            print("bug")
 
    
     # Process the aggregated text for the last speaker
     if last_speaker is not None:
-        produce_file(speaker_realname, toTime(start_time), toTime(end_time), speaker_text)
+        if (last_speaker == "spk_0"):
+            last_speaker_realname = speaker_host
+        else:
+            last_speaker_realname = speaker_guest
+        produce_file(last_speaker_realname, toTime(speaker_start_time), toTime(speaker_end_time), speaker_text)
     # outfile.close()
     os.chdir ("../..")    
     return
@@ -116,7 +128,16 @@ filename = args.pos_arg
 
 #hardcoded for test
 #filename = "/Users/eriksteinholz/src/lex-in-a-box/transcription/transcriptions/mit_ai_ian_goodfellow.json"
-guest_name = " ".join(filename.split("/")[-1].split(".")[0].split("_")[2:]).title()
+
+# get the guest name from the file name
+guest_name_pre = filename.split("/")[-1].split(".")[0].split("_")[2:]
+if guest_name_pre[-1] in "ABCDE": # it is a multipart transcription - remove
+     guest_name_pre.pop(-1)
+if guest_name_pre[-1] in "123456789": # it is a repeat guest - remove
+    guest_name_pre.pop(-1)
+
+
+guest_name = " ".join(guest_name_pre).title()
 with open(filename) as f:
     input_json = json.load(f)
 

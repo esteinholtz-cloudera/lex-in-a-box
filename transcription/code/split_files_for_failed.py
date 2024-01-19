@@ -4,12 +4,16 @@
 # upper limit is 4h.
 # splitting is performed using mp3splt, so it must be installed
 
+# TODO:
+# check that the AWS transcription is indeed "file too large"
+# fine-tune the split call using -a, so that is will split on silence
+
 import boto3, subprocess
 import settings
 
 
 # get failed transcr jobs
-sandbox_session = boto3.session.Session(profile_name=settings.PROFILE_NAME)
+sandbox_session = boto3.session.Session(AWS_PROFILE=settings.AWS_PROFILE)
 
 transcribe = sandbox_session.client('transcribe', region_name=settings.AWS_REGION)
 
